@@ -1,3 +1,7 @@
+---
+import Filter from '../components/Filter/index.astro'
+import Cars from '../components/Cars/index.astro'
+---
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -6,22 +10,13 @@
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
   <link rel="stylesheet" href="/style/global.css">
   <link rel="stylesheet" href="/style/home.css">
-  <style>
-      header {
-          display: flex;
-          flex-direction: column;
-          gap: 1em;
-          max-width: min(100%, 68ch);
-      }
-  </style>
 </head>
 <body>
+  <header>
+    <Filter />
+  </header>
   <main>
-    <header>
-      <div>
-        <img width="60" height="80" src="/assets/logo.svg" alt="Astro logo">
-      </div>
-    </header>
-    </main>
+    <Cars cars={[{ name: 'Tesla Model Y', market: "USA" }]} />
+  </main>
 </body>
 </html>
