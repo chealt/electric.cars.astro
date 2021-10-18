@@ -1,0 +1,14 @@
+---
+import Car from './Car.astro';
+import List from '../List/List.astro';
+import ListItem from '../List/ListItem.astro';
+
+const { cars } = Astro.props;
+---
+<List id="cars">
+  {cars.map(car => (
+    <ListItem>
+      <Car {...car} />
+    </ListItem>
+  ))}
+</List>
