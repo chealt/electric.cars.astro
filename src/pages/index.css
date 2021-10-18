@@ -15,11 +15,9 @@
 
 body {
   font-family: var(--font);
-  padding: 4rem 2rem;
   width: 100%;
   min-height: 100vh;
   display: grid;
-  justify-content: center;
   background: var(--color-background);
   color: var(--color-text);
 }

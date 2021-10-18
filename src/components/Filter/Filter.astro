@@ -2,8 +2,10 @@
 import Form from '../Form/Form.astro';
 import Select from '../Form/Select/Select.astro';
 import Option from '../Form/Select/Option.astro';
+
+import './Filter.css';
 ---
-<Form name="filter">
+<Form name="filter" class="filter">
   <Select label="Market" name="market" multiple>
     <Option value="EU">EU</Option>
     <Option value="USA">USA</Option>
