@@ -1,0 +1,11 @@
+---
+import Form from '../Form/Form.astro';
+import Select from '../Form/Select/Select.astro';
+import Option from '../Form/Select/Option.astro';
+---
+<Form name="filter">
+  <Select label="Market" name="market" multiple>
+    <Option value="EU">EU</Option>
+    <Option value="USA">USA</Option>
+  </Select>
+</Form>
