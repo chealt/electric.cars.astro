@@ -1,0 +1,9 @@
+---
+const { label } = Astro.props;
+---
+<label>
+  {label}
+  <select {...Astro.props}>
+    <slot />
+  </select>
+</label>
