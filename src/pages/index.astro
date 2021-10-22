@@ -3,6 +3,20 @@ import Filter from '../components/Filter/Filter.astro'
 import Cars from '../components/Cars/Cars.astro'
 
 import './index.css';
+
+const cars = [
+  {
+    name: 'Tesla Model Y',
+    market: "USA",
+    make: 'Tesla',
+    model: 'Model Y',
+    images: [
+      { path: 'model-y-portrait@2' },
+      { path: 'Range_Desktop-poster' },
+      { path: 'utility-poster' }
+    ]
+  }
+];
 ---
 <html lang="en">
 <head>
@@ -14,7 +28,7 @@ import './index.css';
 </head>
 <body>
   <main>
-    <Cars cars={[{ name: 'Tesla Model Y', market: "USA" }]} />
+    <Cars cars={cars} />
   </main>
   <Filter />
 </body>

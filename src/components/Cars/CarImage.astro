@@ -1,0 +1,24 @@
+---
+import './CarImage.css';
+
+const imageHostUrl = 'https://s3.us-west-2.amazonaws.com/electric.cars/Electric+Cars';
+const { name, make, model, imagePath } = Astro.props;
+---
+<div class="car-image">
+  <picture>
+    <source
+      srcset={`${imageHostUrl}/${make}/${model}/${imagePath}-800.webp`}
+      media="(min-width: 800px)"
+    />
+    <source
+      srcset={`${imageHostUrl}/${make}/${model}/${imagePath}-600.webp`}
+      media="(min-width: 500px)"
+    />
+    <source
+      srcset={`${imageHostUrl}/${make}/${model}/${imagePath}-300.webp`}
+      media="(min-width: 200px)"
+    />
+    <source srcset={`${imageHostUrl}/${make}/${model}/${imagePath}.webp`} />
+    <img src={`${imageHostUrl}/${make}/${model}/${imagePath}.jpeg`} alt={name} />
+  </picture>
+</div>

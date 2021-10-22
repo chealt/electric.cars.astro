@@ -26,6 +26,10 @@ a {
   color: inherit;
 }
 
+.visually-hidden {
+  display: none;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --color-background: var(--color-primary);
