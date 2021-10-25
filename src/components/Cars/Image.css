@@ -1,4 +1,4 @@
-.car-image {
+.image {
   width: 100%;
   flex-shrink: 0;
   scroll-snap-align: start;
@@ -7,18 +7,18 @@
   align-content: center;
 }
 
-.car-image img {
+.image img {
   width: 100%;
 }
 
 @media (min-width: 500px) {
-  .car-image {
+  .image {
     height: 500px;
   }
 }
 
 @media (min-width: 1000px) {
-  .car-image {
+  .image {
     height: 800px;
   }
 }

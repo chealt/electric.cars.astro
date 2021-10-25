@@ -1,0 +1,13 @@
+.name-container {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.name {
+  font-size: 1.5rem;
+  background: linear-gradient(0deg, rgba(0,0,0,0.4) 0%, rgba(255,255,255,0) 100%);
+  padding: var(--gutter-size--large) var(--gutter-size) var(--gutter-size--small) var(--gutter-size);
+  text-align: center;
+  text-shadow: 2px 2px darkslategrey;
+}

@@ -1,12 +1,17 @@
 ---
-import CarImage from './CarImage.astro';
-import CarImages from './CarImages.astro';
+import Image from './Image.astro';
+import Images from './Images.astro';
+import Name from './Name.astro';
 
-const { name, make, model, images } = Astro.props;
+import './Car.css';
+
+const { name, make, model, year, images } = Astro.props;
 ---
-<h1 class="visually-hidden">{name}</h1>
-<CarImages>
-  {images.map(({ path }) => (
-    <CarImage name={name} make={make} model={model} imagePath={path} />
-  ))}
-</CarImages>
+<div class="car">
+  <Images>
+    {images.map(({ path }) => (
+      <Image name={name} make={make} model={model} imagePath={path} />
+    ))}
+  </Images>
+  <Name name={name} year={year} />
+</div>

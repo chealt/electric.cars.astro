@@ -1,10 +1,10 @@
 ---
-import './CarImage.css';
+import './Image.css';
 
 const imageHostUrl = 'https://s3.us-west-2.amazonaws.com/electric.cars/Electric+Cars';
 const { name, make, model, imagePath } = Astro.props;
 ---
-<div class="car-image">
+<div class="image">
   <picture>
     <source
       srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(imagePath)}-800.webp`}
