@@ -6,6 +6,11 @@
 
   --color-background: var(--color-alternative);
   --color-text: var(--color-primary);
+
+  /* SPACING */
+  --gutter-size: 12px;
+  --gutter-size--small: 8px;
+  --gutter-size--large: 24px;
 }
 
 * {
