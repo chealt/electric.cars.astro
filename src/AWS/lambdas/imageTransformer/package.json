@@ -4,9 +4,13 @@
   "license": "MIT",
   "scripts": {
     "build": "zip -r build.zip . -x 'yarn.lock' -x 'pipeline*'",
+    "release": "node ./pipeline/release.js"
   },
   "dependencies": {
     "@squoosh/cli": "^0.7.2",
     "aws-sdk": "^2.1018.0"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-lambda": "^3.39.0"
   }
 }
