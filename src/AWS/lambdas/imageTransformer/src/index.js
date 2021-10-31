@@ -6,7 +6,7 @@ exports.handler = async (event) =>
   Promise.all(
     event.Records.map(async (record) => {
       const bucket = record.s3.bucket.name;
-      const key = decodeURIComponent(record.s3.object.key.replace(/\+/g, ' '));
+      const key = decodeURIComponent(record.s3.object.key.replace(/\+/gu, ' '));
       const params = {
         Bucket: bucket,
         Key: key
