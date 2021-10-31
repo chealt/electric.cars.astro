@@ -2,6 +2,9 @@
   "name": "@chealt/image-transformer",
   "main": "./src/index.js",
   "license": "MIT",
+  "scripts": {
+    "build": "zip -r build.zip . -x 'yarn.lock'"
+  },
   "dependencies": {
     "@squoosh/cli": "^0.7.2",
     "aws-sdk": "^2.1018.0"
