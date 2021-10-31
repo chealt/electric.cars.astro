@@ -4,10 +4,11 @@
   "license": "MIT",
   "scripts": {
     "build": "zip -r build.zip . -x 'yarn.lock' -x 'pipeline*'",
-    "release": "node ./pipeline/release.js"
+    "deploy": "node ./pipeline/deploy.js",
+    "release": "yarn build && yarn deploy"
   },
   "dependencies": {
-    "@squoosh/cli": "^0.7.2",
+    "@squoosh/lib": "^0.4.0",
     "aws-sdk": "^2.1018.0"
   },
   "devDependencies": {

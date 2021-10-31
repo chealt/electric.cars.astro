@@ -14,7 +14,8 @@ const release = async () => {
     const updateConfigParams = {
       FunctionName: 'imageTransformer',
       Handler: 'src/index.handler',
-      Runtime: 'nodejs14.x'
+      Runtime: 'nodejs14.x',
+      Timeout: 30
     };
 
     const configData = await lambda.send(new UpdateFunctionConfigurationCommand(updateConfigParams));
