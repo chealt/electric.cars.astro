@@ -9,7 +9,14 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "@squoosh/cli": "^0.7.2",
-    "astro": "^0.20.12"
+    "@babel/eslint-parser": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@chealt/check": "^0.7.0",
+    "astro": "^0.20.12",
+    "eslint": "^8.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1"
   }
 }
