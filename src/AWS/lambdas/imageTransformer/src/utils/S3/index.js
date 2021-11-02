@@ -42,7 +42,15 @@ const uploadFile = async ({ bucket, key, binary }) => {
   }
 };
 
+const getObjectDetails = (S3EventRecord) => {
+  const bucket = S3EventRecord.s3.bucket.name;
+  const key = decodeURIComponent(S3EventRecord.s3.object.key.replace(/\+/gu, ' '));
+
+  return { bucket, key };
+};
+
 module.exports = {
   loadFile,
-  uploadFile
+  uploadFile,
+  getObjectDetails
 };

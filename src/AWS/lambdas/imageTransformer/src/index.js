@@ -1,41 +1,16 @@
-const { ImagePool } = require('@squoosh/lib');
-const { cpus } = require('os');
-
-const numberOfCPUs = cpus().length;
-console.log(`Number of CPUs: ${numberOfCPUs}.`);
-const imagePool = new ImagePool(numberOfCPUs);
+const { transformImage } = require('./utils/image/index.js');
+const { loadFile, uploadFile, getObjectDetails } = require('./utils/S3/index.js');
 
 exports.handler = async (event) =>
   Promise.all(
     event.Records.map(async (record) => {
-      const bucket = record.s3.bucket.name;
-      const key = decodeURIComponent(record.s3.object.key.replace(/\+/gu, ' '));
+      const { bucket, key } = getObjectDetails(record);
       const imageBuffer = await loadFile({ bucket, key });
 
-      const image = imagePool.ingestImage(imageBuffer);
-      await image.decoded;
-      console.log('Image decoded.');
-
-      const preprocessOptions = {
-        resize: {
-          enabled: true,
-          width: 300
-        }
-      };
-      await image.preprocess(preprocessOptions);
-      console.log('Image processed.');
-
-      const encodeOptions = {
-        webp: 'auto'
-        // mozjpeg: 'auto'
-      };
-      await image.encode(encodeOptions);
-      console.log('Image encoded.');
-
-      const rawEncodedImage = await image.encodedWith.webp;
-      const newImageExtension = rawEncodedImage.extension;
-      const newKey = `${key.slice(0, key.lastIndexOf('.'))}.${newImageExtension}`;
-      await uploadFile({ bucket, key: newKey, binary: Buffer.from(rawEncodedImage.binary, 'binary') });
+      const width = 600;
+      const transformedImage = await transformImage({ buffer: imageBuffer, format: 'webp', width });
+      const newKey = `${key.slice(0, key.lastIndexOf('.'))}-${width}.${transformedImage.extension}`;
+      await uploadFile({ bucket, key: newKey, binary: transformedImage.buffer });
 
       console.log('Success');
     })
