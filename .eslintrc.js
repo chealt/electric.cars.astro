@@ -6,5 +6,15 @@ module.exports = {
     babelOptions: {
       configFile: './.babelrc.js'
     }
-  }
+  },
+  overrides: [
+    {
+      files: ['src/AWS/lambdas/**/*.*'],
+      rules: [
+        {
+          'no-console': 'off' // In AWS Lambdas we use the console log to track progress.
+        }
+      ]
+    }
+  ]
 };
