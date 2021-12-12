@@ -14,6 +14,7 @@
     "@chealt/check": "^0.7.0",
     "@squoosh/lib": "^0.4.0",
     "astro": "^0.20.12",
+    "aws-sdk": "^2.1046.0",
     "eslint": "^8.1.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.2",

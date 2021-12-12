@@ -9,7 +9,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['src/AWS/lambdas/**/*.*'],
+      files: ['src/AWS/lambdas/**/*.*', 'src/utils/**/*.*'],
       rules: {
         'no-console': 'off' // In AWS Lambdas we use the console log to track progress.
       }
