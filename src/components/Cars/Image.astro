@@ -7,18 +7,18 @@ const { name, make, model, imagePath } = Astro.props;
 <div class="image">
   <picture>
     <source
-      srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(imagePath)}-800.webp`}
+      srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(imagePath)}-original.webp`}
       media="(min-width: 800px)"
     />
     <source
-      srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(imagePath)}-600.webp`}
+      srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(imagePath)}-800.webp`}
       media="(min-width: 500px)"
     />
     <source
-      srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(imagePath)}-300.webp`}
+      srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(imagePath)}-600.webp`}
       media="(min-width: 200px)"
     />
-    <source srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(imagePath)}.webp`} />
-    <img src={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(imagePath)}.jpeg`} alt={name} />
+    <source srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(imagePath)}-300.webp`} />
+    <img src={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(imagePath)}-300.jpeg`} alt={name} />
   </picture>
 </div>
