@@ -8,14 +8,18 @@ const { name, make, model, imagePath } = Astro.props;
   <picture>
     <source
       srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(imagePath)}-original.webp`}
-      media="(min-width: 800px)"
+      media="(min-width: 1000px)"
     />
     <source
       srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(imagePath)}-800.webp`}
-      media="(min-width: 500px)"
+      media="(min-width: 800px)"
     />
     <source
       srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(imagePath)}-600.webp`}
+      media="(min-width: 500px)"
+    />
+    <source
+      srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(imagePath)}-300.webp`}
       media="(min-width: 200px)"
     />
     <source srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(imagePath)}-300.webp`} />

@@ -31,40 +31,54 @@ const getConfig = () => {
   return {
     folder,
     AWS: { bucket },
-    widths: [300, 600, 800, 'original']
+    widths: [300, 600, 800, 'original'],
+    formats: [
+      {
+        squooshEncoding: 'webp',
+        contentType: 'image/webp'
+      },
+      {
+        squooshEncoding: 'mozjpeg',
+        contentType: 'image/jpeg'
+      }
+    ]
   };
 };
 
 const {
   folder,
   AWS: { bucket },
-  widths
+  widths,
+  formats
 } = getConfig();
 
 await Promise.all(
   widths.map(async (width) => {
-    const format = 'webp';
     const files = await getImages(folder);
 
     return Promise.all(
-      files.map(async (filename) => {
-        const imageBuffer = await readFile(filename);
-        const transformedImage = await transformImage({ buffer: imageBuffer, format, width });
-        const newKey = `${filename.slice(0, filename.lastIndexOf('.'))}-${width}.${transformedImage.extension}`;
+      files.map((filename) =>
+        Promise.all(
+          formats.map(async ({ squooshEncoding, contentType }) => {
+            const imageBuffer = await readFile(filename);
+            const transformedImage = await transformImage({ buffer: imageBuffer, format: squooshEncoding, width });
+            const newKey = `${filename.slice(0, filename.lastIndexOf('.'))}-${width}.${transformedImage.extension}`;
 
-        console.log(`File will be created with the filename: ${newKey}`);
+            console.log(`File will be created with the filename: ${newKey}`);
 
-        const uploadPromise = uploadFile({
-          bucket,
-          key: newKey,
-          binary: transformedImage.buffer,
-          contentType: 'image/webp'
-        }).then(() => {
-          console.log(`Image uploaded with width: ${width}, and format: ${format}`);
-        });
+            const uploadPromise = uploadFile({
+              bucket,
+              key: newKey,
+              binary: transformedImage.buffer,
+              contentType
+            }).then(() => {
+              console.log(`Image uploaded with width: ${width}, and format: ${squooshEncoding}`);
+            });
 
-        return uploadPromise;
-      })
+            return uploadPromise;
+          })
+        )
+      )
     );
   })
 );
