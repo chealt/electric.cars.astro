@@ -32,7 +32,7 @@ const uploadFile = async ({ bucket, key, binary }) => {
   try {
     console.log('Uploading file to S3...');
     const object = await s3.putObject(params).promise();
-    console.log('Uploaded file to S3.');
+    console.log(`Uploaded file to ${bucket}/${key}`);
 
     return object.Body;
   } catch (error) {

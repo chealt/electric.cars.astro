@@ -10,14 +10,17 @@ const transformImage = async ({ buffer, format, width }) => {
   await image.decoded;
   console.log('Image decoded.');
 
-  const preprocessOptions = {
-    resize: {
-      enabled: true,
-      width
-    }
-  };
-  await image.preprocess(preprocessOptions);
-  console.log('Image processed.');
+  if (width !== 'original') {
+    const preprocessOptions = {
+      resize: {
+        enabled: true,
+        width
+      }
+    };
+
+    await image.preprocess(preprocessOptions);
+    console.log('Image processed.');
+  }
 
   const encodeOptions = {
     [format]: 'auto'
