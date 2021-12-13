@@ -21,7 +21,7 @@ const loadFile = async ({ bucket, key }) => {
   }
 };
 
-const uploadFile = async ({ bucket, key, binary }) => {
+const uploadFile = ({ bucket, key, binary }) => {
   const params = {
     ACL: 'bucket-owner-full-control',
     Bucket: bucket,
@@ -31,10 +31,14 @@ const uploadFile = async ({ bucket, key, binary }) => {
 
   try {
     console.log('Uploading file to S3...');
-    const object = await s3.putObject(params).promise();
-    console.log(`Uploaded file to ${bucket}/${key}`);
+    const uploadPromise = s3
+      .putObject(params)
+      .promise()
+      .then(() => {
+        console.log(`Uploaded file to ${bucket}/${key}`);
+      });
 
-    return object.Body;
+    return uploadPromise;
   } catch (error) {
     console.error(`Cannot upload file to S3, bucket: ${bucket}, key: ${key}`);
 
