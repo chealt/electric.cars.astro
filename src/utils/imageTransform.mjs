@@ -1,7 +1,7 @@
 import fs from 'fs';
 import { promisify } from 'util';
-import { transformImage } from './image';
-import { uploadFile } from './S3';
+import { transformImage } from './image/index.mjs';
+import { uploadFile } from './S3/index.mjs';
 
 const readFile = promisify(fs.readFile);
 
