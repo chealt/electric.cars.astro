@@ -2,10 +2,9 @@
 import Image from './Image.astro';
 import Images from './Images.astro';
 import Name from './Name.astro';
+import Details from './Details.astro';
 
-import './Car.css';
-
-const { name, make, model, year, images } = Astro.props;
+const { name, make, model, year, images, ...rest } = Astro.props;
 ---
 <div class="car">
   <Images>
@@ -14,4 +13,5 @@ const { name, make, model, year, images } = Astro.props;
     ))}
   </Images>
   <Name name={name} year={year} />
+  <Details {...rest} />
 </div>
