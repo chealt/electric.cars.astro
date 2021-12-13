@@ -21,12 +21,13 @@ const loadFile = async ({ bucket, key }) => {
   }
 };
 
-const uploadFile = ({ bucket, key, binary }) => {
+const uploadFile = ({ bucket, key, binary, contentType }) => {
   const params = {
     ACL: 'bucket-owner-full-control',
     Bucket: bucket,
     Key: key,
-    Body: binary
+    Body: binary,
+    ContentType: contentType
   };
 
   try {

@@ -54,7 +54,12 @@ await Promise.all(
 
         console.log(`File will be created with the filename: ${newKey}`);
 
-        const uploadPromise = uploadFile({ bucket, key: newKey, binary: transformedImage.buffer }).then(() => {
+        const uploadPromise = uploadFile({
+          bucket,
+          key: newKey,
+          binary: transformedImage.buffer,
+          contentType: 'image/webp'
+        }).then(() => {
           console.log(`Image uploaded with width: ${width}, and format: ${format}`);
         });
 
