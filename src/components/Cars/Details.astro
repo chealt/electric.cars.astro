@@ -1,11 +1,13 @@
 ---
+import './Details.css';
+
 const { range: { WLTP: { km } }, acceleration: { zeroToHundred }, cargoSpace: { liter } } = Astro.props;
 ---
 <dl class="details">
-  <dd>{zeroToHundred}</dd>
   <dt>0 - 100 kph</dt>
-  <dd>{km} WLTP</dd>
+  <dd>{zeroToHundred}</dd>
   <dt>Range</dt>
-  <dd>{liter}</dd>
+  <dd>{km} WLTP</dd>
   <dt>Cargo Space</dt>
+  <dd>{liter}</dd>
 </dl>
