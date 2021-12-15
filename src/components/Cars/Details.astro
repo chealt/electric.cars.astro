@@ -2,10 +2,10 @@
 const { range: { WLTP: { km } }, acceleration: { zeroToHundred }, cargoSpace: { liter } } = Astro.props;
 ---
 <dl class="details">
-  <dt>Acceleration (0 - 100)</dt>
   <dd>{zeroToHundred}</dd>
-  <dt>Range</dt>
+  <dt>0 - 100 kph</dt>
   <dd>{km} WLTP</dd>
-  <dt>Cargo Space</dt>
+  <dt>Range</dt>
   <dd>{liter}</dd>
+  <dt>Cargo Space</dt>
 </dl>
