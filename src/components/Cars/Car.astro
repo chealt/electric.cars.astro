@@ -9,7 +9,7 @@ const { name, make, model, year, images, ...rest } = Astro.props;
 <div class="car">
   <Images>
     {images.map(({ path }) => (
-      <Image name={name} make={make} model={model} imagePath={path} />
+      <Image name={name} make={make} model={model} year={year} imagePath={path} />
     ))}
   </Images>
   <Name name={name} year={year} />
