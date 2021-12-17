@@ -2,27 +2,27 @@
 import './Image.css';
 
 const imageHostUrl = 'https://s3.us-west-2.amazonaws.com/electric.cars/images';
-const { name, make, model, imagePath } = Astro.props;
+const { name, make, model, year, imagePath } = Astro.props;
 ---
 <div class="image">
   <picture>
     <source
-      srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(imagePath)}-original.webp`}
+      srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(year)}/${encodeURIComponent(imagePath)}-original.webp`}
       media="(min-width: 1000px)"
     />
     <source
-      srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(imagePath)}-800.webp`}
+      srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(year)}/${encodeURIComponent(imagePath)}-800.webp`}
       media="(min-width: 800px)"
     />
     <source
-      srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(imagePath)}-600.webp`}
+      srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(year)}/${encodeURIComponent(imagePath)}-600.webp`}
       media="(min-width: 500px)"
     />
     <source
-      srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(imagePath)}-300.webp`}
+      srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(year)}/${encodeURIComponent(imagePath)}-300.webp`}
       media="(min-width: 200px)"
     />
-    <source srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(imagePath)}-300.webp`} />
-    <img src={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(imagePath)}-300.jpeg`} alt={name} />
+    <source srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(year)}/${encodeURIComponent(imagePath)}-300.webp`} />
+    <img src={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(year)}/${encodeURIComponent(imagePath)}-300.jpeg`} alt={name} />
   </picture>
 </div>
