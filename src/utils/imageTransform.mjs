@@ -7,7 +7,7 @@ import { uploadFile } from './S3/index.mjs';
 
 const readFile = promisify(fs.readFile);
 const globAsync = promisify(glob);
-const getImages = (folder) => globAsync(`${folder}/**/*.+(jpg|jpeg|webp|png)`);
+const getImages = (folder) => globAsync(`${folder}/**/*.+(jpg|jpeg|webp|png|avif)`);
 const getConfig = () => {
   const folder = process.env.FOLDER;
   const bucket = process.env.AWS_BUCKET;
