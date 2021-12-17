@@ -9,7 +9,7 @@
   --color-text: var(--color-primary);
 
   /* SPACING */
-  --gutter-size: 12px;
+  --gutter-size: 0.5rem;
   --gutter-size--small: 8px;
   --gutter-size--large: 24px;
 }
@@ -28,8 +28,31 @@ body {
   color: var(--color-text);
 }
 
+dl {
+  column-count: 3;
+  column-rule: 1px solid var(--color-alternative);
+  text-align: center;
+}
+
+dd,
+dt {
+  padding: var(--gutter-size);
+}
+
+dd {
+  font-size: 1.6rem;
+}
+
+dt {
+  font-size: 1rem;
+}
+
 a {
   color: inherit;
+}
+
+section {
+  margin: var(--gutter-size--large);
 }
 
 .visually-hidden {
