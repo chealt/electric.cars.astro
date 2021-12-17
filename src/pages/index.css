@@ -10,8 +10,8 @@
 
   /* SPACING */
   --gutter-size: 0.5rem;
-  --gutter-size--small: 8px;
-  --gutter-size--large: 24px;
+  --gutter-size--small: 1rem;
+  --gutter-size--large: 1.2rem;
 }
 
 * {
