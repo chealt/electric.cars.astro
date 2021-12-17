@@ -13,12 +13,12 @@
 
 @media (min-width: 500px) {
   .image {
-    height: 500px;
+    height: 400px;
   }
 }
 
 @media (min-width: 1000px) {
   .image {
-    height: 800px;
+    height: 600px;
   }
 }
