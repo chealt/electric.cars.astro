@@ -2,11 +2,11 @@
   --font: system-ui;
   --color-primary: #17517E;
   --color-secondary: #8E9D66;
+  --color-text: #071825;
   --color-alternative: #f3f1f1;
 
   --color-background: var(--color-alternative);
   --color-background-alternative: var(--color-secondary);
-  --color-text: var(--color-primary);
 
   /* SPACING */
   --gutter-size: 0.5rem;
