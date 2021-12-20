@@ -10,18 +10,18 @@
     "lint:scripts": "eslint --ext .js,.mjs"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.16.0",
-    "@babel/preset-env": "^7.16.0",
-    "@chealt/check": "^0.7.0",
+    "@babel/eslint-parser": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@chealt/check": "^0.8.0",
     "@squoosh/lib": "^0.4.0",
     "astro": "^0.21.13",
     "autoprefixer": "^10.4.0",
     "aws-sdk": "^2.1046.0",
-    "eslint": "^8.1.0",
+    "eslint": "^8.5.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-prettier": "^4.0.0",
     "glob": "^7.2.0",
-    "prettier": "^2.4.1"
+    "prettier": "^2.5.1"
   }
 }
