@@ -59,6 +59,10 @@ section {
   margin: var(--gutter-size--large);
 }
 
+img {
+  background-image: linear-gradient(to bottom, var(--color-subtle--light), var(--color-subtle--dark)); /* for lazy loading images */
+}
+
 .visually-hidden {
   display: none;
 }
