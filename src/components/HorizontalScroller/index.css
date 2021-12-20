@@ -1,0 +1,26 @@
+.horizontal-scroller {
+  display: grid;
+  grid-auto-flow: column;
+  gap: calc(var(--gutter-size) / 2);
+  margin: 0;
+  
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  
+  padding-inline: var(--gutter-size);
+  scroll-padding-inline: var(--gutter-size);
+  padding-block: calc(var(--gutter-size) / 2); /* make space for scrollbar and focus outline */
+
+  scroll-snap-type: inline mandatory;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .horizontal-scroller {
+    scroll-behavior: smooth;
+  }
+}
+
+.horizontal-scroller > li {
+  display: inline-grid;
+  scroll-snap-align: start;
+}
