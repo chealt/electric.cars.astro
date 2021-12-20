@@ -4,6 +4,7 @@
   --color-secondary: #8E9D66;
   --color-text: #071825;
   --color-alternative: #f3f1f1;
+  --color-divider: #bcc7cf;
 
   --color-background: var(--color-alternative);
   --color-background-alternative: var(--color-secondary);
@@ -11,7 +12,7 @@
   /* SPACING */
   --gutter-size: 1rem;
   --gutter-size--small: 0.5rem;
-  --gutter-size--large: 1.2rem;
+  --gutter-size--large: 1.4rem;
 }
 
 * {
@@ -30,7 +31,7 @@ body {
 
 dl {
   column-count: 3;
-  column-rule: 1px solid var(--color-text);
+  column-rule: 1px solid var(--color-divider);
   text-align: center;
 }
 
@@ -40,7 +41,7 @@ dt {
 }
 
 dd {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: bold;
 }
 
