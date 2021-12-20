@@ -2,30 +2,20 @@
 import './Image.css';
 
 const imageHostUrl = 'https://static.electric.cars.chealt.com/images';
-const { name, make, model, year, imagePath } = Astro.props;
+const getUrlPrefix = ({ make, model, year, imagePath }: typeof Astro.props) =>
+  `${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(year)}/${encodeURIComponent(imagePath)}`;
+const urlPrefix = getUrlPrefix(Astro.props);
+const { name } = Astro.props;
 ---
 <div class="image">
   <picture>
-    <source
-      srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(year)}/${encodeURIComponent(imagePath)}-original.webp`}
-      media="(min-width: 1000px)"
-    />
-    <source
-      srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(year)}/${encodeURIComponent(imagePath)}-800.webp`}
-      width="800"
-      media="(min-width: 800px)"
-    />
-    <source
-      srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(year)}/${encodeURIComponent(imagePath)}-600.webp`}
-      width="600"
-      media="(min-width: 500px)"
-    />
-    <source
-      srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(year)}/${encodeURIComponent(imagePath)}-300.webp`}
-      width="300"
-      media="(min-width: 200px)"
-    />
-    <source srcset={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(year)}/${encodeURIComponent(imagePath)}-300.webp`} width="300" />
-    <img src={`${imageHostUrl}/${encodeURIComponent(make)}/${encodeURIComponent(model)}/${encodeURIComponent(year)}/${encodeURIComponent(imagePath)}-300.jpeg`} alt={name} width="300" />
+    <source srcset={`${urlPrefix}-original.webp`} media="(min-width: 1000px)" />
+    <source srcset={`${urlPrefix}-800.webp`} width="800" media="(min-width: 800px)" />
+    <source srcset={`${urlPrefix}-800.webp`} width="800" media="(min-width: 500px) and (min-resolution: 2dppx)" />
+    <source srcset={`${urlPrefix}-600.webp`} width="600" media="(min-width: 500px)" />
+    <source srcset={`${urlPrefix}-600.webp`} width="600" media="(min-width: 200px) and (min-resolution: 2dppx)" />
+    <source srcset={`${urlPrefix}-300.webp`} width="300" media="(min-width: 200px)" />
+    <source srcset={`${urlPrefix}-300.webp`} width="300" />
+    <img src={`${urlPrefix}-300.jpeg`} alt={name} width="300" />
   </picture>
 </div>
