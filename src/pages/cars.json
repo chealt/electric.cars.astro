@@ -1,0 +1,154 @@
+[
+  {
+    "name": "Tesla Model Y",
+    "market": "USA",
+    "make": "Tesla",
+    "model": "Model Y",
+    "year": "2021",
+    "images": [
+      { "path": "model-y-portrait@2" },
+      { "path": "AWD_hero-portrait@2" },
+      { "path": "Range_Desktop-poster" },
+      { "path": "utility-poster" }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 507
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 3.7
+    },
+    "cargoSpace": {
+      "liter": 854,
+      "maxLiter": 2158
+    }
+  },
+  {
+    "name": "Tesla Model X",
+    "market": "USA",
+    "make": "Tesla",
+    "model": "Model X Plaid",
+    "year": "2021",
+    "images": [
+      { "path": "MX-Hero-Desktop" },
+      { "path": "MX-Exterior-Grid-A-Desktop" },
+      { "path": "MX-Exterior-Grid-B-Desktop" },
+      { "path": "MX-Exterior-Grid-C-Desktop" },
+      { "path": "MX-Exterior-Hero-Desktop" },
+      { "path": "MX-Interior-Carousel-B-Desktop" },
+      { "path": "MX-Interior-Carousel-C-Desktop" },
+      { "path": "MX-Interior-Carousel-D-Desktop" },
+      { "path": "MX-Interior-Grid-B-Desktop" },
+      { "path": "MX-Interior-Grid-C-Desktop" },
+      { "path": "MX-Performance-Hero-Desktop" },
+      { "path": "MX-Range-Hero-Desktop" },
+      { "path": "MX-Safety-Hero-Desktop" },
+      { "path": "MX-Utility-Hero-Desktop" }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 536
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 2.6
+    },
+    "cargoSpace": {
+      "liter": 1145,
+      "maxLiter": 2577
+    }
+  },
+  {
+    "name": "KIA EV6",
+    "market": "USA",
+    "make": "Kia",
+    "model": "EV6",
+    "year": "2021",
+    "images": [
+      { "path": "kia_ev6_video_petals_1920x1080" },
+      { "path": "kia_ev6_carousel_exterior_01_1160x653" },
+      { "path": "kia_ev6_carousel_exterior_03_1160x653" },
+      { "path": "kia_ev6_carousel_connectivity_03_1160x653" },
+      { "path": "kia_ev6_carousel_e-gmp_05_1160x653" },
+      { "path": "kia_ev6_carousel_exterior_04_1160x653" },
+      { "path": "kia_ev6_carousel_interior_03_1160x653" },
+      { "path": "kia_ev6_carousel_interior_06_1160x653" },
+      { "path": "kia_ev6_configuration_1920x1080" },
+      { "path": "kia_ev6_sustainable-materials_hide_1160x580" },
+      { "path": "kia-ev6-gls-my22-glbglacier-20_0011" }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 528
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 5.2
+    },
+    "cargoSpace": {
+      "liter": 490,
+      "maxLiter": 1300
+    }
+  },
+  {
+    "name": "Hyundai iONIQ 5",
+    "market": "USA",
+    "make": "Hyundai",
+    "model": "iONIQ 5",
+    "year": "2021",
+    "images": [
+      { "path": "Hyundai_IONIQ5_exterior_front_design_4x3" },
+      { "path": "Hyundai_IONIQ5_exterior_rear_design_4x3" },
+      { "path": "14_OnBoard-Charger_mid_4x3" },
+      { "path": "15_1_SustainableDetails_mid_16x9" },
+      { "path": "HME_PI_NE_Top-Trim_INT_side-roominess_7088x4902_rgb_v005_4x3" },
+      { "path": "IONIQ5_features_tab_electric_seats_16x9" },
+      { "path": "IONIQ5_features_tab_power_tailgate_16x9" },
+      { "path": "IONIQ5_features_tab_voice_recognition_16x9" },
+      { "path": "NE-DE-GIW5YCZ7ZHH211_T5R_52910GI210_EXT_Frame_0006" },
+      { "path": "NE-DE-GIW5YCZ7ZHH211_U3P_52910GI210_EXT_Frame_0012" },
+      { "path": "NE-DE-GIW5YCZ7ZHH211_W3T_52910GI210_EXT_Frame_0001" },
+      { "path": "Photo6_Body-1_4x3" }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 481
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 5.2
+    },
+    "cargoSpace": {
+      "liter": 311,
+      "maxLiter": 1587
+    }
+  },
+  {
+    "name": "Mazda MX-30",
+    "market": "USA",
+    "make": "Mazda",
+    "model": "MX-30",
+    "year": "2021",
+    "images": [
+      { "path": "15ea0c4033524b4bbf7ae03d08c03a41" },
+      { "path": "7462e868a40b4ff895d17a4d57fc72e3" },
+      { "path": "b3fd870bba6b4757ba62b8ecb9f46884" },
+      { "path": "1a66ed9288ac4f44923cc27a0bfb17c4" },
+      { "path": "2a2154d2d71743c998b79708c4dcf437" },
+      { "path": "9ef3f398a1114f91917f822bc570aacf" }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 200
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 9.7
+    },
+    "cargoSpace": {
+      "liter": 366,
+      "maxLiter": 1171
+    }
+  }
+]
