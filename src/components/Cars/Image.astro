@@ -16,6 +16,6 @@ const { name } = Astro.props;
     <source srcset={`${urlPrefix}-600.webp`} width="600" media="(min-width: 200px) and (min-resolution: 2dppx)" />
     <source srcset={`${urlPrefix}-300.webp`} width="300" media="(min-width: 200px)" />
     <source srcset={`${urlPrefix}-300.webp`} width="300" />
-    <img src={`${urlPrefix}-300.jpeg`} alt={name} width="300" />
+    <img src={`${urlPrefix}-300.jpeg`} alt={name} width="300" loading="lazy" />
   </picture>
 </div>
