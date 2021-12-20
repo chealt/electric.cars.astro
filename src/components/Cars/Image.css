@@ -1,24 +1,41 @@
-.image {
-  width: 100%;
-  flex-shrink: 0;
-  scroll-snap-align: start;
-  height: 250px;
-  display: inline-grid;
-  align-content: center;
-}
-
-.image img {
-  width: 100%;
+picture {
+  inline-size: 90vw;
+  block-size: 250px;
 }
 
 @media (min-width: 500px) {
-  .image {
-    height: 400px;
+  picture {
+    block-size: 400px;
   }
 }
 
 @media (min-width: 1000px) {
-  .image {
-    height: 600px;
+  picture {
+    block-size: 600px;
   }
+}
+
+@media (min-width: 1500px) {
+  picture {
+    block-size: 800px;
+  }
+}
+
+@media (min-width: 2000px) {
+  picture {
+    block-size: 1000px;
+  }
+}
+
+img {
+  /* smash into whatever box it's in */
+  inline-size: 100%;
+  block-size: 100%;
+
+  /* don't squish but do cover the space */
+  object-fit: cover;
+
+  /* soften the edges */
+  border-radius: 1ex;
+  overflow: hidden;
 }

@@ -1,17 +1,20 @@
 ---
 import Image from './Image.astro';
-import Images from './Images.astro';
 import Name from './Name.astro';
 import Details from './Details.astro';
+import HorizontalScroller from '../HorizontalScroller/index.astro';
+import HorizontalScrollerItem from '../HorizontalScroller/Item.astro';
 
 const { name, make, model, year, images, ...rest } = Astro.props;
 ---
-<div class="car">
-  <Images>
+<>
+  <HorizontalScroller>
     {images.map(({ path }) => (
-      <Image name={name} make={make} model={model} year={year} imagePath={path} />
+      <HorizontalScrollerItem>
+        <Image name={name} make={make} model={model} year={year} imagePath={path} />
+      </HorizontalScrollerItem>
     ))}
-  </Images>
+  </HorizontalScroller>
   <Name name={name} year={year} />
   <Details {...rest} />
-</div>
+</>

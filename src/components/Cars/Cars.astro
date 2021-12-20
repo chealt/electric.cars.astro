@@ -3,9 +3,11 @@ import Car from './Car.astro';
 import List from '../List/List.astro';
 import ListItem from '../List/ListItem.astro';
 
+import './Cars.css';
+
 const { cars } = Astro.props;
 ---
-<List id="cars">
+<List class="cars">
   {cars.map(car => (
     <ListItem>
       <Car {...car} />

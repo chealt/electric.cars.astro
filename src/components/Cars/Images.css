@@ -1,5 +1,0 @@
-.images {
-  display: flex;
-  scroll-snap-type: x mandatory;
-  overflow: scroll hidden;
-}

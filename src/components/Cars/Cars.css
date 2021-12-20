@@ -1,0 +1,8 @@
+.cars {
+  display: grid;
+  gap: var(--gutter-size);
+}
+
+.cars > li {
+  display: grid;
+}
