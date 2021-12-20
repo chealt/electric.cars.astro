@@ -9,8 +9,8 @@
   --color-background-alternative: var(--color-secondary);
 
   /* SPACING */
-  --gutter-size: 0.5rem;
-  --gutter-size--small: 1rem;
+  --gutter-size: 1rem;
+  --gutter-size--small: 0.5rem;
   --gutter-size--large: 1.2rem;
 }
 
@@ -36,11 +36,12 @@ dl {
 
 dd,
 dt {
-  padding: var(--gutter-size);
+  padding: var(--gutter-size--small) var(--gutter-size);
 }
 
 dd {
   font-size: 1.6rem;
+  font-weight: bold;
 }
 
 dt {
