@@ -1,15 +1,15 @@
 .horizontal-scroller {
   display: grid;
   grid-auto-flow: column;
-  gap: calc(var(--gutter-size) / 2);
+  gap: var(--gutter-size);
   margin: 0;
   
   overflow-x: auto;
   overscroll-behavior-inline: contain;
   
   padding-inline: var(--gutter-size);
-  scroll-padding-inline: var(--gutter-size);
-  padding-block: calc(var(--gutter-size) / 2); /* make space for scrollbar and focus outline */
+  scroll-padding-inline: calc(var(--gutter-size) * 2);
+  padding-block: var(--gutter-size);
 
   scroll-snap-type: inline mandatory;
 }
