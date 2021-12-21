@@ -1,6 +1,4 @@
 ---
-const { value, name } = Astro.props;
+const { value } = Astro.props;
 ---
-<option value={value} name={name}>
-  <slot />
-</option>
+<option value={value}><slot /></option>
