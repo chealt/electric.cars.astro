@@ -1,4 +1,7 @@
 {
   "page.title": "Elektromos Autók | Összehasonlító app",
-  "page.description": "Összehasonlító app elektromos autókhoz."
+  "page.description": "Összehasonlító app elektromos autókhoz.",
+  "kph": "km/h",
+  "range": "hatótávolság",
+  "cargoSpace": "csomagtér (liter)"
 }

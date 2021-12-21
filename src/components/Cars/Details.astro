@@ -1,13 +1,17 @@
 ---
+import { getLocaleData } from '../../locales/utils.js';
+
+const locale = Astro.request.params.locale || 'en-US';
+const t = getLocaleData(locale);
 const { range: { WLTP: { km } }, acceleration: { zeroToHundred }, cargoSpace: { liter } } = Astro.props;
 ---
 <section>
   <dl>
     <dd>{zeroToHundred}</dd>
-    <dt>0 - 100 kph</dt>
+    <dt>0 - 100 {t('kph')}</dt>
     <dd>{km}</dd>
-    <dt>Range (WLTP)</dt>
+    <dt>{t('range')} (WLTP)</dt>
     <dd>{liter}</dd>
-    <dt>Cargo Space (l)</dt>
+    <dt>{t('cargoSpace')}</dt>
   </dl>
 </section>
