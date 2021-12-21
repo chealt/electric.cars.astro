@@ -2,6 +2,7 @@
   --font: system-ui;
   --color-primary: #17517E;
   --color-secondary: #8E9D66;
+  --color-secondary--dark: #3e442c;
   --color-text: #071825;
   --color-alternative: #f3f1f1;
   --color-subtle--light: #bcc7cf;
@@ -67,9 +68,26 @@ img {
   display: none;
 }
 
+.alternative.background {
+  background-color: var(--color-background-alternative);
+  color: var(--color-alternative);
+}
+
+.fader {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.fader.open {
+  visibility: visible;
+  opacity: 1;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --color-background: var(--color-primary);
+    --color-background-alternative: var(--color-secondary--dark);
     --color-text: var(--color-alternative);
     --color-divider: var(--color-subtle--dark);
   }
