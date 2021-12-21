@@ -9,7 +9,7 @@ const { cars } = Astro.props;
 ---
 <List class="cars">
   {cars.map(car => (
-    <ListItem>
+    <ListItem class="car" data-markets={car.markets.join(',')}>
       <Car {...car} />
     </ListItem>
   ))}

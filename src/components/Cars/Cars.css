@@ -3,6 +3,6 @@
   gap: var(--gutter-size);
 }
 
-.cars > li {
+.cars > .car {
   display: grid;
 }

@@ -1,7 +1,7 @@
 [
   {
     "name": "Tesla Model Y",
-    "market": "USA",
+    "markets": ["EU"],
     "make": "Tesla",
     "model": "Model Y",
     "year": "2021",
@@ -26,7 +26,7 @@
   },
   {
     "name": "Tesla Model X",
-    "market": "USA",
+    "markets": ["EU", "USA"],
     "make": "Tesla",
     "model": "Model X Plaid",
     "year": "2021",
@@ -61,7 +61,7 @@
   },
   {
     "name": "KIA EV6",
-    "market": "USA",
+    "markets": ["USA"],
     "make": "Kia",
     "model": "EV6",
     "year": "2021",
@@ -93,7 +93,7 @@
   },
   {
     "name": "Hyundai iONIQ 5",
-    "market": "USA",
+    "markets": ["USA"],
     "make": "Hyundai",
     "model": "iONIQ 5",
     "year": "2021",
@@ -126,7 +126,7 @@
   },
   {
     "name": "Mazda MX-30",
-    "market": "USA",
+    "markets": ["USA"],
     "make": "Mazda",
     "model": "MX-30",
     "year": "2021",
