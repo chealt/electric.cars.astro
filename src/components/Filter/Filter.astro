@@ -6,8 +6,15 @@ import Option from '../Form/Select/Option.astro';
 import './Filter.css';
 ---
 <Form name="filter" class="filter alternative background fader">
-  <Select label="Market" name="market" multiple>
-    <Option value="EU">EU</Option>
-    <Option value="USA">USA</Option>
-  </Select>
+  <!--
+    TODO: implement using Select and Option components once the following is fixed
+    https://github.com/withastro/astro/issues/1807
+  -->
+  <label>
+    Market
+    <select label="Market" name="markets" multiple>
+      <option value="EU">EU</option>
+      <option value="USA">USA</option>
+    </select>
+  </label>
 </Form>
