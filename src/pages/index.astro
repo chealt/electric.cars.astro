@@ -1,23 +1,4 @@
 ---
-import Filter from '../components/Filter/Filter.astro'
-import Cars from '../components/Cars/Cars.astro'
-import cars from './cars.json';
-
-import './index.css';
+import App from '../components/App/App.astro';
 ---
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width">
-  <meta name="description" content="A comparison site for electric cars on all markets.">
-  <meta name="color-scheme" content="dark light">
-  <title>Electric Cars | comparison site</title>
-  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-</head>
-<body>
-  <main>
-    <Cars cars={cars} />
-  </main>
-  <Filter />
-</body>
-</html>
+<App locale="en-US" />

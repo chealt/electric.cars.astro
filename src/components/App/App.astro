@@ -1,0 +1,29 @@
+---
+import Filter from '../Filter/Filter.astro'
+import Cars from '../Cars/Cars.astro'
+import cars from './cars.json';
+import { getLocale, getLocaleData } from '../../locales/utils.js';
+
+import './App.css';
+
+const { locale } = Astro.props;
+const { lang } = getLocale(locale);
+const t = getLocaleData(locale);
+
+---
+<html lang={lang}>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content={t('page.description')}>
+  <meta name="color-scheme" content="dark light">
+  <title>{t('page.title')}</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+</head>
+<body>
+  <main>
+    <Cars cars={cars} />
+  </main>
+  <Filter />
+</body>
+</html>

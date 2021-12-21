@@ -1,0 +1,17 @@
+[
+  {
+    "code": "en-US",
+    "lang": "en",
+    "name": "English (US)"
+  },
+  {
+    "code": "en-GB",
+    "lang": "en",
+    "name": "English (UK)"
+  },
+  {
+    "code": "hu-HU",
+    "lang": "hu",
+    "name": "Magyar"
+  }
+]

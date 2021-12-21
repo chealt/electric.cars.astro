@@ -1,0 +1,14 @@
+---
+import App from '../components/App/App.astro';
+import locales from '../locales/config.json';
+
+export async function getStaticPaths() {
+  return locales.map(({ code }) => (
+    { params: { locale: code } }
+  ));
+}
+
+const { locale } = Astro.request.params;
+
+---
+<App locale={locale} />
