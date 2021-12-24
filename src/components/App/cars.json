@@ -172,7 +172,8 @@
       "zeroToHundred": 4.6
     },
     "cargoSpace": {
-      "liter": 500
+      "liter": 500,
+      "maxLiter": 1750
     }
   },
   {
@@ -197,7 +198,8 @@
       "zeroToHundred": 6.3
     },
     "cargoSpace": {
-      "liter": 510
+      "liter": 510,
+      "maxLiter": 1560
     }
   }
 ]
