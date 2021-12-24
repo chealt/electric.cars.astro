@@ -233,5 +233,43 @@
       "liter": 470,
       "maxLiter": 1290
     }
+  },
+  {
+    "name": "Renault Zoe",
+    "markets": ["USA"],
+    "make": "Renault",
+    "model": "Zoe",
+    "year": "2021",
+    "images": [
+      { "path": "Renault_Zoe_2020-01@2x" },
+      { "path": "Renault_Zoe_2020-03@2x" },
+      { "path": "Renault_Zoe_2020-05@2x" },
+      { "path": "Renault_Zoe_2020-07@2x" },
+      { "path": "Renault_Zoe_2020-08@2x" },
+      { "path": "Renault_Zoe_2020-09@2x" },
+      { "path": "Renault_Zoe_2020-10@2x" },
+      { "path": "Renault_Zoe_2020-11@2x" },
+      { "path": "Renault_Zoe_2020-12@2x" },
+      { "path": "Renault_Zoe_2020-13@2x" },
+      { "path": "Renault_Zoe_2020-14@2x" },
+      { "path": "Renault_Zoe_2020-16@2x" },
+      { "path": "Renault_Zoe_2020-17@2x" },
+      { "path": "Renault_Zoe_2020-18@2x" },
+      { "path": "Renault_Zoe_2020-19@2x" },
+      { "path": "Renault_Zoe_2020-20@2x" },
+      { "path": "Renault_Zoe_2020-28@2x" }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 384
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 9.5
+    },
+    "cargoSpace": {
+      "liter": 338,
+      "maxLiter": 1225
+    }
   }
 ]
