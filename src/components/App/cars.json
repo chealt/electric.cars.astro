@@ -271,5 +271,50 @@
       "liter": 338,
       "maxLiter": 1225
     }
+  },
+  {
+    "name": "Nissan Leaf",
+    "markets": ["USA"],
+    "make": "Nissan",
+    "model": "Leaf",
+    "year": "2021",
+    "images": [
+      { "path": "Nissan_Leaf_2018-01@2x" },
+      { "path": "Nissan_Leaf_2018-02@2x" },
+      { "path": "Nissan_Leaf_2018-05@2x" },
+      { "path": "Nissan_Leaf_2018-07@2x" },
+      { "path": "Nissan_Leaf_2018-08@2x" },
+      { "path": "Nissan_Leaf_2018-09@2x" },
+      { "path": "Nissan_Leaf_2018-10@2x" },
+      { "path": "Nissan_Leaf_2018-11@2x" },
+      { "path": "Nissan_Leaf_2018-12@2x" },
+      { "path": "Nissan_Leaf_2018-13@2x" },
+      { "path": "Nissan_Leaf_2018-14@2x" },
+      { "path": "Nissan_Leaf_2018-15@2x" },
+      { "path": "Nissan_Leaf_2018-16@2x" },
+      { "path": "Nissan_Leaf_2018-18@2x" },
+      { "path": "Nissan_Leaf_2018-19@2x" },
+      { "path": "Nissan_Leaf_2018-20@2x" },
+      { "path": "Nissan_Leaf_2018-21@2x" },
+      { "path": "Nissan_Leaf_2018-27@2x" },
+      { "path": "Nissan_Leaf_2018-28@2x" },
+      { "path": "Nissan_Leaf_2018-30@2x" },
+      { "path": "Nissan_Leaf_2018-32@2x" },
+      { "path": "Nissan_Leaf_2018-33@2x" },
+      { "path": "Nissan_Leaf_2018-34@2x" },
+      { "path": "Nissan_Leaf_2018-35@2x" }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 270
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 7.9
+    },
+    "cargoSpace": {
+      "liter": 435,
+      "maxLiter": 1176
+    }
   }
 ]
