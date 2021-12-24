@@ -150,5 +150,54 @@
       "liter": 366,
       "maxLiter": 1171
     }
+  },
+  {
+    "name": "BMW iX",
+    "markets": ["USA"],
+    "make": "BMW",
+    "model": "iX",
+    "year": "2021",
+    "images": [
+      { "path": "bmw-ix" },
+      { "path": "cq5dam.resized.img.1680.large.time1621586784308" },
+      { "path": "2021-07-14-bmw-ix-29" },
+      { "path": "bmw-ix-xdrive50-2021" }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 630
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 4.6
+    },
+    "cargoSpace": {
+      "liter": 500
+    }
+  },
+  {
+    "name": "BMW iX3",
+    "markets": ["USA"],
+    "make": "BMW",
+    "model": "iX3",
+    "year": "2021",
+    "images": [
+      { "path": "P90432173-the-new-bmw-ix3-8-2021-2246px" },
+      { "path": "bmw_ix3_051" },
+      { "path": "2021-08-10-bmw-ix3-15" },
+      { "path": "P90432183_highRes_the-new-bmw-ix3-8-20-scaled" },
+      { "path": "2021-BMW-iX3-" }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 458
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 6.3
+    },
+    "cargoSpace": {
+      "liter": 510
+    }
   }
 ]
