@@ -150,5 +150,170 @@
       "liter": 366,
       "maxLiter": 1171
     }
+  },
+  {
+    "name": "BMW iX",
+    "markets": ["USA"],
+    "make": "BMW",
+    "model": "iX",
+    "year": "2021",
+    "images": [
+      { "path": "bmw-ix" },
+      { "path": "cq5dam.resized.img.1680.large.time1621586784308" },
+      { "path": "2021-07-14-bmw-ix-29" },
+      { "path": "bmw-ix-xdrive50-2021" }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 630
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 4.6
+    },
+    "cargoSpace": {
+      "liter": 500,
+      "maxLiter": 1750
+    }
+  },
+  {
+    "name": "BMW iX3",
+    "markets": ["USA"],
+    "make": "BMW",
+    "model": "iX3",
+    "year": "2021",
+    "images": [
+      { "path": "P90432173-the-new-bmw-ix3-8-2021-2246px" },
+      { "path": "bmw_ix3_051" },
+      { "path": "2021-08-10-bmw-ix3-15" },
+      { "path": "P90432183_highRes_the-new-bmw-ix3-8-20-scaled" },
+      { "path": "2021-BMW-iX3-" }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 458
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 6.3
+    },
+    "cargoSpace": {
+      "liter": 510,
+      "maxLiter": 1560
+    }
+  },
+  {
+    "name": "BMW i4",
+    "markets": ["USA"],
+    "make": "BMW",
+    "model": "i4",
+    "year": "2021",
+    "images": [
+      { "path": "BMW_i4_eDrive40-01@2x" },
+      { "path": "BMW_i4_eDrive40-02@2x" },
+      { "path": "BMW_i4_eDrive40-03@2x" },
+      { "path": "BMW_i4_eDrive40-04@2x" },
+      { "path": "BMW_i4_eDrive40-11@2x" },
+      { "path": "BMW_i4_eDrive40-12@2x" },
+      { "path": "BMW_i4_eDrive40-13@2x" },
+      { "path": "BMW_i4_eDrive40-15@2x" },
+      { "path": "BMW_i4_eDrive40-18@2x" },
+      { "path": "BMW_i4_eDrive40-19@2x" },
+      { "path": "BMW_i4_eDrive40-20@2x" }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 590
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 5.7
+    },
+    "cargoSpace": {
+      "liter": 470,
+      "maxLiter": 1290
+    }
+  },
+  {
+    "name": "Renault Zoe",
+    "markets": ["USA"],
+    "make": "Renault",
+    "model": "Zoe",
+    "year": "2021",
+    "images": [
+      { "path": "Renault_Zoe_2020-01@2x" },
+      { "path": "Renault_Zoe_2020-03@2x" },
+      { "path": "Renault_Zoe_2020-05@2x" },
+      { "path": "Renault_Zoe_2020-07@2x" },
+      { "path": "Renault_Zoe_2020-08@2x" },
+      { "path": "Renault_Zoe_2020-09@2x" },
+      { "path": "Renault_Zoe_2020-10@2x" },
+      { "path": "Renault_Zoe_2020-11@2x" },
+      { "path": "Renault_Zoe_2020-12@2x" },
+      { "path": "Renault_Zoe_2020-13@2x" },
+      { "path": "Renault_Zoe_2020-14@2x" },
+      { "path": "Renault_Zoe_2020-16@2x" },
+      { "path": "Renault_Zoe_2020-17@2x" },
+      { "path": "Renault_Zoe_2020-18@2x" },
+      { "path": "Renault_Zoe_2020-19@2x" },
+      { "path": "Renault_Zoe_2020-20@2x" },
+      { "path": "Renault_Zoe_2020-28@2x" }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 384
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 9.5
+    },
+    "cargoSpace": {
+      "liter": 338,
+      "maxLiter": 1225
+    }
+  },
+  {
+    "name": "Nissan Leaf",
+    "markets": ["USA"],
+    "make": "Nissan",
+    "model": "Leaf",
+    "year": "2021",
+    "images": [
+      { "path": "Nissan_Leaf_2018-01@2x" },
+      { "path": "Nissan_Leaf_2018-02@2x" },
+      { "path": "Nissan_Leaf_2018-05@2x" },
+      { "path": "Nissan_Leaf_2018-07@2x" },
+      { "path": "Nissan_Leaf_2018-08@2x" },
+      { "path": "Nissan_Leaf_2018-09@2x" },
+      { "path": "Nissan_Leaf_2018-10@2x" },
+      { "path": "Nissan_Leaf_2018-11@2x" },
+      { "path": "Nissan_Leaf_2018-12@2x" },
+      { "path": "Nissan_Leaf_2018-13@2x" },
+      { "path": "Nissan_Leaf_2018-14@2x" },
+      { "path": "Nissan_Leaf_2018-15@2x" },
+      { "path": "Nissan_Leaf_2018-16@2x" },
+      { "path": "Nissan_Leaf_2018-18@2x" },
+      { "path": "Nissan_Leaf_2018-19@2x" },
+      { "path": "Nissan_Leaf_2018-20@2x" },
+      { "path": "Nissan_Leaf_2018-21@2x" },
+      { "path": "Nissan_Leaf_2018-27@2x" },
+      { "path": "Nissan_Leaf_2018-30@2x" },
+      { "path": "Nissan_Leaf_2018-32@2x" },
+      { "path": "Nissan_Leaf_2018-33@2x" },
+      { "path": "Nissan_Leaf_2018-34@2x" },
+      { "path": "Nissan_Leaf_2018-35@2x" }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 270
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 7.9
+    },
+    "cargoSpace": {
+      "liter": 435,
+      "maxLiter": 1176
+    }
   }
 ]
