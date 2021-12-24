@@ -201,5 +201,37 @@
       "liter": 510,
       "maxLiter": 1560
     }
+  },
+  {
+    "name": "BMW i4",
+    "markets": ["USA"],
+    "make": "BMW",
+    "model": "i4",
+    "year": "2021",
+    "images": [
+      { "path": "BMW_i4_eDrive40-01@2x" },
+      { "path": "BMW_i4_eDrive40-02@2x" },
+      { "path": "BMW_i4_eDrive40-03@2x" },
+      { "path": "BMW_i4_eDrive40-04@2x" },
+      { "path": "BMW_i4_eDrive40-11@2x" },
+      { "path": "BMW_i4_eDrive40-12@2x" },
+      { "path": "BMW_i4_eDrive40-13@2x" },
+      { "path": "BMW_i4_eDrive40-15@2x" },
+      { "path": "BMW_i4_eDrive40-18@2x" },
+      { "path": "BMW_i4_eDrive40-19@2x" },
+      { "path": "BMW_i4_eDrive40-20@2x" }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 590
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 5.7
+    },
+    "cargoSpace": {
+      "liter": 470,
+      "maxLiter": 1290
+    }
   }
 ]
