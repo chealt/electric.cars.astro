@@ -49,13 +49,10 @@
   border-radius: 12px;
   font-size: 1.25rem;
   color: white;
-  background: var(--color-primary--lighter);
-  will-change: transform;
+  background-color: var(--color-primary--lighter);
+  will-change: transform, background-color;
   transform: translateY(-4px);
-  transition:
-    transform
-    600ms
-    cubic-bezier(.3, .7, .4, 1);
+  transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1), background-color 0.4s;
 }
 
 .switch:active .front {
@@ -64,6 +61,15 @@
 }
 
 .switch:active .shadow {
+  transform: translateY(1px);
+  transition: transform 34ms;
+}
+
+:checked + .switch .front {
+  background-color: var(--color-secondary);
+}
+
+:checked + .switch .shadow {
   transform: translateY(1px);
   transition: transform 34ms;
 }
