@@ -1,11 +1,13 @@
 :root {
   --font: system-ui;
   --color-primary: #17517E;
+  --color-primary--lightest: #72aedc;
   --color-primary--lighter: #3177ac;
   --color-primary--darker: #041018;
   --color-primary--darkest: #0b283d;
   --color-secondary: #8E9D66;
-  --color-secondary--dark: #3e442c;
+  --color-secondary--lighter: #acbb85;
+  --color-secondary--darker: #3e442c;
   --color-text: #071825;
   --color-alternative: #f3f1f1;
   --color-subtle--light: #bcc7cf;
@@ -91,6 +93,10 @@ img {
   white-space: nowrap;
 }
 
+.background {
+  background-color: var(--color-background);
+}
+
 .alternative.background {
   background-color: var(--color-background-alternative);
   color: var(--color-alternative);
@@ -110,7 +116,7 @@ img {
 @media (prefers-color-scheme: dark) {
   :root {
     --color-background: var(--color-primary);
-    --color-background-alternative: var(--color-secondary--dark);
+    --color-background-alternative: var(--color-secondary--darker);
     --color-text: var(--color-alternative);
     --color-divider: var(--color-subtle--dark);
   }

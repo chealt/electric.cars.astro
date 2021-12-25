@@ -50,9 +50,9 @@
   font-size: 1.25rem;
   color: white;
   background-color: var(--color-primary--lighter);
-  will-change: transform, background-color;
+  will-change: transform, background-color, color;
   transform: translateY(-4px);
-  transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1), background-color 0.4s;
+  transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1), background-color 0.4s, color 0.4s;
 }
 
 .switch:active .front {
@@ -66,7 +66,8 @@
 }
 
 :checked + .switch .front {
-  background-color: var(--color-secondary);
+  background-color: var(--color-secondary--lighter);
+  color: var(--color-text);
 }
 
 :checked + .switch .shadow {
