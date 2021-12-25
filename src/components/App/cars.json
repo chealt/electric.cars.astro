@@ -315,5 +315,66 @@
       "liter": 435,
       "maxLiter": 1176
     }
+  },
+  {
+    "name": "Volvo XC40",
+    "markets": ["USA"],
+    "make": "Volvo",
+    "model": "XC40",
+    "year": "2022",
+    "images": [
+      { "path": "Volvo_XC40_Recharge-01@2x" },
+      { "path": "Volvo_XC40_Recharge-03@2x" },
+      { "path": "Volvo_XC40_Recharge-05@2x" },
+      { "path": "Volvo_XC40_Recharge-15@2x" },
+      { "path": "Volvo_XC40_Recharge-22@2x" },
+      { "path": "Volvo_XC40_Recharge-23@2x" },
+      { "path": "Volvo_XC40_Recharge-24@2x" },
+      { "path": "Volvo_XC40_Recharge-25@2x" },
+      { "path": "Volvo_XC40_Recharge-26@2x" }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 272
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 7.4
+    },
+    "cargoSpace": {
+      "liter": 419,
+      "maxLiter": 1295
+    }
+  },
+  {
+    "name": "Volvo C40 Recharge",
+    "markets": ["USA"],
+    "make": "Volvo",
+    "model": "C40 Recharge",
+    "year": "2021",
+    "images": [
+      { "path": "Volvo_C40_Recharge-01@2x" },
+      { "path": "Volvo_C40_Recharge-02@2x" },
+      { "path": "Volvo_C40_Recharge-07@2x" },
+      { "path": "Volvo_C40_Recharge-18@2x" },
+      { "path": "Volvo_C40_Recharge-19@2x" },
+      { "path": "Volvo_C40_Recharge-20@2x" },
+      { "path": "Volvo_C40_Recharge-21@2x" },
+      { "path": "Volvo_C40_Recharge-22@2x" },
+      { "path": "Volvo_C40_Recharge-24@2x" },
+      { "path": "Volvo_C40_Recharge-28@2x" }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 420
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 4.7
+    },
+    "cargoSpace": {
+      "liter": 419,
+      "maxLiter": 1205
+    }
   }
 ]
