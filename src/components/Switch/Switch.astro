@@ -1,0 +1,15 @@
+---
+import './Switch.css'
+
+const { name } = Astro.props;
+---
+<>
+  <input type="checkbox" name={name} id={name} value="true" class="visually-hidden" />
+  <label class="switch" for={name}>
+    <span class="shadow"></span>
+    <span class="edge"></span>
+    <span class="front">
+      <slot />
+    </span>
+  </label>
+</>

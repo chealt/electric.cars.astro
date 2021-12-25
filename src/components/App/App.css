@@ -1,6 +1,9 @@
 :root {
   --font: system-ui;
   --color-primary: #17517E;
+  --color-primary--lighter: #3177ac;
+  --color-primary--darker: #041018;
+  --color-primary--darkest: #0b283d;
   --color-secondary: #8E9D66;
   --color-secondary--dark: #3e442c;
   --color-text: #071825;
@@ -16,6 +19,16 @@
   --gutter-size: 1rem;
   --gutter-size--small: 0.5rem;
   --gutter-size--large: 1.4rem;
+
+  --border-radius--small: 4px;
+  --border-radius: 8px;
+  --border-radius--large: 16px;
+
+  --z-index--largest: 1000;
+  --z-index--large: 500;
+  --z-index: 100;
+  --z-index--small: 10;
+  --z-index--smallest: 1;
 }
 
 * {
@@ -30,6 +43,7 @@ body {
   display: grid;
   background: var(--color-background);
   color: var(--color-text);
+  position: relative;
 }
 
 dl {
@@ -65,7 +79,16 @@ img {
 }
 
 .visually-hidden {
-  display: none;
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  margin: -1px;
+  clip: rect(0, 0, 0, 0);
+  visibility: inherit;
+  white-space: nowrap;
 }
 
 .alternative.background {
