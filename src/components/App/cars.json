@@ -376,5 +376,66 @@
       "liter": 419,
       "maxLiter": 1205
     }
+  },
+  {
+    "name": "Ford Mustang Mach-E",
+    "markets": ["USA", "EU"],
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "year": "2021",
+    "images": [
+      { "path": "Ford_Mustang_Mach-E-01@2x" },
+      { "path": "Ford_Mustang_Mach-E-02@2x" },
+      { "path": "Ford_Mustang_Mach-E-09@2x" },
+      { "path": "Ford_Mustang_Mach-E-10@2x" },
+      { "path": "Ford_Mustang_Mach-E-15@2x" },
+      { "path": "Ford_Mustang_Mach-E-16@2x" },
+      { "path": "Ford_Mustang_Mach-E-17@2x" },
+      { "path": "Ford_Mustang_Mach-E-18@2x" },
+      { "path": "Ford_Mustang_Mach-E-20@2x" },
+      { "path": "Ford_Mustang_Mach-E-21@2x" },
+      { "path": "Ford_Mustang_Mach-E-23@2x" }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 500
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 4.4
+    },
+    "cargoSpace": {
+      "liter": 322,
+      "maxLiter": 1420
+    }
+  },
+  {
+    "name": "Audi Q4 e-tron",
+    "markets": ["USA", "EU"],
+    "make": "Audi",
+    "model": "Q4 e-tron",
+    "year": "2021",
+    "images": [
+      { "path": "Audi_Q4_e-tron_2021-10@2x" },
+      { "path": "Audi_Q4_e-tron_2021-05@2x" },
+      { "path": "Audi_Q4_e-tron_2021-08@2x" },
+      { "path": "Audi_Q4_e-tron_2021-22@2x" },
+      { "path": "Audi_Q4_e-tron_2021-25@2x" },
+      { "path": "Audi_Q4_e-tron_2021-28@2x" },
+      { "path": "Audi_Q4_e-tron_2021-30@2x" },
+      { "path": "Audi_Q4_e-tron_2021-32@2x" }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 500
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 8.5
+    },
+    "cargoSpace": {
+      "liter": 520,
+      "maxLiter": 1490
+    }
   }
 ]
