@@ -376,5 +376,37 @@
       "liter": 419,
       "maxLiter": 1205
     }
+  },
+  {
+    "name": "Ford Mustang Mach-E",
+    "markets": ["USA", "EU"],
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "year": "2021",
+    "images": [
+      { "path": "Ford_Mustang_Mach-E-01@2x" },
+      { "path": "Ford_Mustang_Mach-E-02@2x" },
+      { "path": "Ford_Mustang_Mach-E-09@2x" },
+      { "path": "Ford_Mustang_Mach-E-10@2x" },
+      { "path": "Ford_Mustang_Mach-E-15@2x" },
+      { "path": "Ford_Mustang_Mach-E-16@2x" },
+      { "path": "Ford_Mustang_Mach-E-17@2x" },
+      { "path": "Ford_Mustang_Mach-E-18@2x" },
+      { "path": "Ford_Mustang_Mach-E-20@2x" },
+      { "path": "Ford_Mustang_Mach-E-21@2x" },
+      { "path": "Ford_Mustang_Mach-E-23@2x" }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 500
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 4.4
+    },
+    "cargoSpace": {
+      "liter": 322,
+      "maxLiter": 1420
+    }
   }
 ]
