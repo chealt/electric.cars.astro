@@ -1047,6 +1047,61 @@
     }
   },
   {
+    "name": "Toyota",
+    "markets": [
+      "EU"
+    ],
+    "make": "Toyota",
+    "model": "bZ4X",
+    "year": "2022",
+    "images": [
+      {
+        "path": "Toyota_bZ4X-04@2x"
+      },
+      {
+        "path": "Toyota_bZ4X-05@2x"
+      },
+      {
+        "path": "Toyota_bZ4X-08@2x"
+      },
+      {
+        "path": "Toyota_bZ4X-09@2x"
+      },
+      {
+        "path": "Toyota_bZ4X-12@2x"
+      },
+      {
+        "path": "Toyota_bZ4X-13@2x"
+      },
+      {
+        "path": "Toyota_bZ4X-14@2x"
+      },
+      {
+        "path": "Toyota_bZ4X-15@2x"
+      },
+      {
+        "path": "Toyota_bZ4X-16@2x"
+      },
+      {
+        "path": "Toyota_bZ4X-17@2x"
+      },
+      {
+        "path": "Toyota_bZ4X-23@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 400
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 7.7
+    },
+    "cargoSpace": {
+      "liter": 452
+    }
+  },
+  {
     "name": "Volvo C40 Recharge",
     "markets": [
       "USA"
