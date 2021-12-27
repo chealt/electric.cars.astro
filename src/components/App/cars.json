@@ -337,6 +337,63 @@
     }
   },
   {
+    "name": "Honda e Advance",
+    "markets": [
+      "USA",
+      "EU"
+    ],
+    "make": "Honda",
+    "model": "e Advance",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Honda_e-01@2x"
+      },
+      {
+        "path": "Honda_e-04@2x"
+      },
+      {
+        "path": "Honda_e-07@2x"
+      },
+      {
+        "path": "Honda_e-08@2x"
+      },
+      {
+        "path": "Honda_e-15@2x"
+      },
+      {
+        "path": "Honda_e-19@2x"
+      },
+      {
+        "path": "Honda_e-20@2x"
+      },
+      {
+        "path": "Honda_e-21@2x"
+      },
+      {
+        "path": "Honda_e-24@2x"
+      },
+      {
+        "path": "Honda_e-26@2x"
+      },
+      {
+        "path": "Honda_e-32@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 222
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 8.3
+    },
+    "cargoSpace": {
+      "liter": 171,
+      "maxLiter": 861
+    }
+  },
+  {
     "name": "Hyundai iONIQ 5",
     "markets": [
       "USA"
