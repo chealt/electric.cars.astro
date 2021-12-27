@@ -28,6 +28,32 @@
     }
   },
   {
+    "name": "Tesla Model S Plaid",
+    "markets": ["EU"],
+    "make": "Tesla",
+    "model": "Model S Plaid",
+    "year": "2021",
+    "images": [
+      { "path": "Tesla_Model_S_2021-04@2x" },
+      { "path": "Tesla_Model_S_2021-02@2x" },
+      { "path": "Tesla_Model_S_2021-03@2x" },
+      { "path": "Tesla_Model_S_2021-05@2x" },
+      { "path": "Tesla_Model_S_2021-06@2x" },
+      { "path": "Tesla_Model_S_2021-07@2x" }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 627
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 2.1
+    },
+    "cargoSpace": {
+      "liter": 793
+    }
+  },
+  {
     "name": "Tesla Model Y",
     "markets": ["EU"],
     "make": "Tesla",
