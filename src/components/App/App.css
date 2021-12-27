@@ -3,8 +3,8 @@
   --font: system-ui;
   --font-size--small: 1rem;
   --font-size: 16px;
-  --font-size--large: 1.4rem;
-  --font-size--largest: 1.8rem;
+  --font-size--large: 1.2rem;
+  --font-size--largest: 1.4rem;
 
   /* COLORS */
   --color-primary: #17517E;
@@ -58,6 +58,17 @@ body {
   position: relative;
 }
 
+form {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
 label {
   display: flex;
   flex-direction: column;
@@ -73,8 +84,8 @@ select {
 }
 
 option {
-  font-size: var(--font-size--large);
-  padding: var(--gutter-size--small);
+  font-size: var(--font-size--largest);
+  padding: var(--gutter-size--small) var(--gutter-size);
 }
 
 option:checked {
