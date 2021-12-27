@@ -1,5 +1,12 @@
 :root {
+  /* FONTS */
   --font: system-ui;
+  --font-size--small: 1rem;
+  --font-size: 16px;
+  --font-size--large: 1.4rem;
+  --font-size--largest: 1.8rem;
+
+  /* COLORS */
   --color-primary: #17517E;
   --color-primary--lightest: #72aedc;
   --color-primary--lighter: #3177ac;
@@ -15,17 +22,19 @@
   
   --color-background: var(--color-alternative);
   --color-background-alternative: var(--color-secondary);
-  --color-divider: var(--color-subtle--light);
-
+  
   /* SPACING */
   --gutter-size: 1rem;
   --gutter-size--small: 0.5rem;
   --gutter-size--large: 1.4rem;
-
+  
+  /* BORDERS & DIVIDERS */
+  --color-divider: var(--color-subtle--light);
   --border-radius--small: 4px;
   --border-radius: 8px;
   --border-radius--large: 16px;
 
+  /* Z-INDEX */
   --z-index--largest: 1000;
   --z-index--large: 500;
   --z-index: 100;
@@ -40,12 +49,37 @@
 
 body {
   font-family: var(--font);
+  font-size: var(--font-size);
   width: 100%;
   min-height: 100vh;
   display: grid;
   background: var(--color-background);
   color: var(--color-text);
   position: relative;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+  gap: var(--gutter-size--large);
+  font-size: var(--font-size--large);
+}
+
+select {
+  font-family: var(--font);
+  border: 1px solid var(--color-divider);
+}
+
+option {
+  font-size: var(--font-size--large);
+  padding: var(--gutter-size--small);
+}
+
+option:checked {
+  background-color: var(--color-primary);
+  color: var(--color-alternative);
 }
 
 dl {
