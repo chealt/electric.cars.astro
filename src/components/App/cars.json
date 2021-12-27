@@ -465,5 +465,35 @@
       "liter": 520,
       "maxLiter": 1490
     }
+  },
+  {
+    "name": "Fiat 500e Hatchback",
+    "markets": ["EU"],
+    "make": "Fiat",
+    "model": "500e Hatchback",
+    "year": "2021",
+    "images": [
+      { "path": "Fiat_500e_Hatchback_2020-01@2x" },
+      { "path": "Fiat_500e_Hatchback_2020-02@2x" },
+      { "path": "Fiat_500e_Hatchback_2020-03@2x" },
+      { "path": "Fiat_500e_Hatchback_2020-10@2x" },
+      { "path": "Fiat_500e_Hatchback_2020-11@2x" },
+      { "path": "Fiat_500e_Hatchback_2020-12@2x" },
+      { "path": "Fiat_500e_Hatchback_2020-13@2x" },
+      { "path": "Fiat_500e_Hatchback_2020-14@2x" },
+      { "path": "Fiat_500e_Hatchback_2020-15@2x" }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 320
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 9.0
+    },
+    "cargoSpace": {
+      "liter": 185,
+      "maxLiter": 550
+    }
   }
 ]
