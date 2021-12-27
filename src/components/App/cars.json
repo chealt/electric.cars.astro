@@ -606,6 +606,62 @@
     }
   },
   {
+    "name": "Skoda Enyaq iV 80x",
+    "markets": [
+      "USA"
+    ],
+    "make": "Skoda",
+    "model": "Enyaq iV 80x",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Skoda_Enyaq_iV_2020-01@2x"
+      },
+      {
+        "path": "Skoda_Enyaq_iV_2020-02@2x"
+      },
+      {
+        "path": "Skoda_Enyaq_iV_2020-07@2x"
+      },
+      {
+        "path": "Skoda_Enyaq_iV_2020-10@2x"
+      },
+      {
+        "path": "Skoda_Enyaq_iV_2020-21@2x"
+      },
+      {
+        "path": "Skoda_Enyaq_iV_2020-24@2x"
+      },
+      {
+        "path": "Skoda_Enyaq_iV_2020-28@2x"
+      },
+      {
+        "path": "Skoda_Enyaq_iV_2020-29@2x"
+      },
+      {
+        "path": "Skoda_Enyaq_iV_2020-30@2x"
+      },
+      {
+        "path": "Skoda_Enyaq_iV_2020-32@2x"
+      },
+      {
+        "path": "Skoda_Enyaq_iV_2020-33@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 495
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 6.9
+    },
+    "cargoSpace": {
+      "liter": 585,
+      "maxLiter": 1710
+    }
+  },
+  {
     "name": "Tesla Model X",
     "markets": [
       "EU",
