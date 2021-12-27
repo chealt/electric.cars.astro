@@ -1102,6 +1102,66 @@
     }
   },
   {
+    "name": "Volkswagen",
+    "markets": [
+      "USA",
+      "EU"
+    ],
+    "make": "Volkswagen",
+    "model": "ID.3 Pro Performance",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Volkswagen_ID3-13@2x"
+      },
+      {
+        "path": "Volkswagen_ID3-14@2x"
+      },
+      {
+        "path": "Volkswagen_ID3-15@2x"
+      },
+      {
+        "path": "Volkswagen_ID3-16@2x"
+      },
+      {
+        "path": "Volkswagen_ID3-20@2x"
+      },
+      {
+        "path": "Volkswagen_ID3-25@2x"
+      },
+      {
+        "path": "Volkswagen_ID3-26@2x"
+      },
+      {
+        "path": "Volkswagen_ID3-27@2x"
+      },
+      {
+        "path": "Volkswagen_ID3-28@2x"
+      },
+      {
+        "path": "Volkswagen_ID3-30@2x"
+      },
+      {
+        "path": "Volkswagen_ID3-35@2x"
+      },
+      {
+        "path": "Volkswagen_ID3-36@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 426
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 7.3
+    },
+    "cargoSpace": {
+      "liter": 385,
+      "maxLiter": 1267
+    }
+  },
+  {
     "name": "Volvo C40 Recharge",
     "markets": [
       "USA"
