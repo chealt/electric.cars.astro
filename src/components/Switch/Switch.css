@@ -16,7 +16,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  border-radius: 12px;
+  border-radius: var(--border-radius);
   background: hsl(0deg 0% 0% / 0.25);
   will-change: transform;
   transform: translateY(2px);
@@ -32,7 +32,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  border-radius: 12px;
+  border-radius: var(--border-radius);
   background: linear-gradient(
     to left,
     var(--color-primary--darker) 0%,
@@ -45,9 +45,8 @@
 .front {
   display: block;
   position: relative;
-  padding: 12px 42px;
-  border-radius: 12px;
-  font-size: 1.25rem;
+  padding: var(--gutter-size--small) var(--gutter-size--large);
+  border-radius: var(--border-radius);
   color: white;
   background-color: var(--color-primary--lighter);
   will-change: transform, background-color, color;
