@@ -1,5 +1,33 @@
 [
   {
+    "name": "Tesla Model 3 Long Range",
+    "markets": ["EU"],
+    "make": "Tesla",
+    "model": "Model 3 Long Range",
+    "year": "2021",
+    "images": [
+      { "path": "Tesla_Model_3_2021-01@2x" },
+      { "path": "Tesla_Model_3_2021-03@2x" },
+      { "path": "Tesla_Model_3_2021-04@2x" },
+      { "path": "Tesla_Model_3_2021-05@2x" },
+      { "path": "Tesla_Model_3_2021-06@2x" },
+      { "path": "Tesla_Model_3_2021-08@2x" },
+      { "path": "Tesla_Model_3_2021-09@2x" },
+      { "path": "Tesla_Model_3_2021-10@2x" }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 614
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 4.4
+    },
+    "cargoSpace": {
+      "liter": 649
+    }
+  },
+  {
     "name": "Tesla Model Y",
     "markets": ["EU"],
     "make": "Tesla",
