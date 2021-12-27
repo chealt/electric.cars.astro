@@ -503,6 +503,44 @@
     }
   },
   {
+    "name": "KIA e-Niro",
+    "markets": [
+      "USA"
+    ],
+    "make": "Kia",
+    "model": "e-Niro",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Kia_e-Niro-2020-01@2x"
+      },
+      {
+        "path": "Kia_e-Niro-2020-02@2x"
+      },
+      {
+        "path": "Kia_e-Niro-2020-03@2x"
+      },
+      {
+        "path": "Kia_e-Niro-2020-04@2x"
+      },
+      {
+        "path": "Kia_e-Niro-2020-07@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 455
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 7.8
+    },
+    "cargoSpace": {
+      "liter": 451,
+      "maxLiter": 1405
+    }
+  },
+  {
     "name": "KIA EV6",
     "markets": [
       "USA"
