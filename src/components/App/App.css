@@ -71,12 +71,12 @@ form {
 }
 
 label {
+  font-size: var(--font-size--largest);
   display: flex;
   flex-direction: column;
   align-content: flex-start;
   align-items: flex-start;
   gap: var(--gutter-size--large);
-  font-size: var(--font-size--large);
 }
 
 select {
@@ -85,7 +85,7 @@ select {
 }
 
 option {
-  font-size: var(--font-size--largest);
+  font-size: var(--font-size--large);
   padding: var(--gutter-size--small) var(--gutter-size);
 }
 
