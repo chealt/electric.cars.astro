@@ -396,6 +396,56 @@
     }
   },
   {
+    "name": "Hyundai Kona",
+    "markets": [
+      "USA"
+    ],
+    "make": "Hyundai",
+    "model": "Kona",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Hyundai_Kona_Electric_2021-01@2x"
+      },
+      {
+        "path": "Hyundai_Kona_Electric_2021-02@2x"
+      },
+      {
+        "path": "Hyundai_Kona_Electric_2021-03@2x"
+      },
+      {
+        "path": "Hyundai_Kona_Electric_2021-04@2x"
+      },
+      {
+        "path": "Hyundai_Kona_Electric_2021-05@2x"
+      },
+      {
+        "path": "Hyundai_Kona_Electric_2021-06@2x"
+      },
+      {
+        "path": "Hyundai_Kona_Electric_2021-07@2x"
+      },
+      {
+        "path": "Hyundai_Kona_Electric_2021-08@2x"
+      },
+      {
+        "path": "Hyundai_Kona_Electric_2021-09@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 481
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 5.2
+    },
+    "cargoSpace": {
+      "liter": 311,
+      "maxLiter": 1587
+    }
+  },
+  {
     "name": "KIA EV6",
     "markets": [
       "USA"
