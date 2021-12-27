@@ -80,6 +80,10 @@ img {
   background-image: linear-gradient(to bottom, var(--color-subtle--light), var(--color-subtle--dark)); /* for lazy loading images */
 }
 
+.hidden {
+  display: none !important;
+}
+
 .visually-hidden {
   position: absolute;
   overflow: hidden;
