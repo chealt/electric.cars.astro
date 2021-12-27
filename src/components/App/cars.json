@@ -1,225 +1,147 @@
 [
   {
-    "name": "Tesla Model Y",
-    "markets": ["EU"],
-    "make": "Tesla",
-    "model": "Model Y",
+    "name": "Audi Q4 e-tron",
+    "markets": [
+      "USA",
+      "EU"
+    ],
+    "make": "Audi",
+    "model": "Q4 e-tron",
     "year": "2021",
     "images": [
-      { "path": "model-y-portrait@2" },
-      { "path": "AWD_hero-portrait@2" },
-      { "path": "Range_Desktop-poster" },
-      { "path": "utility-poster" }
+      {
+        "path": "Audi_Q4_e-tron_2021-10@2x"
+      },
+      {
+        "path": "Audi_Q4_e-tron_2021-05@2x"
+      },
+      {
+        "path": "Audi_Q4_e-tron_2021-08@2x"
+      },
+      {
+        "path": "Audi_Q4_e-tron_2021-22@2x"
+      },
+      {
+        "path": "Audi_Q4_e-tron_2021-25@2x"
+      },
+      {
+        "path": "Audi_Q4_e-tron_2021-28@2x"
+      },
+      {
+        "path": "Audi_Q4_e-tron_2021-30@2x"
+      },
+      {
+        "path": "Audi_Q4_e-tron_2021-32@2x"
+      }
     ],
     "range": {
       "WLTP": {
-        "km": 507
+        "km": 500
       }
     },
     "acceleration": {
-      "zeroToHundred": 3.7
+      "zeroToHundred": 8.5
     },
     "cargoSpace": {
-      "liter": 854,
-      "maxLiter": 2158
+      "liter": 520,
+      "maxLiter": 1490
     }
   },
   {
-    "name": "Tesla Model X",
-    "markets": ["EU", "USA"],
-    "make": "Tesla",
-    "model": "Model X Plaid",
-    "year": "2021",
-    "images": [
-      { "path": "MX-Hero-Desktop" },
-      { "path": "MX-Exterior-Grid-A-Desktop" },
-      { "path": "MX-Exterior-Grid-B-Desktop" },
-      { "path": "MX-Exterior-Grid-C-Desktop" },
-      { "path": "MX-Exterior-Hero-Desktop" },
-      { "path": "MX-Interior-Carousel-B-Desktop" },
-      { "path": "MX-Interior-Carousel-C-Desktop" },
-      { "path": "MX-Interior-Carousel-D-Desktop" },
-      { "path": "MX-Interior-Grid-B-Desktop" },
-      { "path": "MX-Interior-Grid-C-Desktop" },
-      { "path": "MX-Performance-Hero-Desktop" },
-      { "path": "MX-Range-Hero-Desktop" },
-      { "path": "MX-Safety-Hero-Desktop" },
-      { "path": "MX-Utility-Hero-Desktop" }
+    "name": "BMW i3",
+    "markets": [
+      "USA"
     ],
-    "range": {
-      "WLTP": {
-        "km": 536
-      }
-    },
-    "acceleration": {
-      "zeroToHundred": 2.6
-    },
-    "cargoSpace": {
-      "liter": 1145,
-      "maxLiter": 2577
-    }
-  },
-  {
-    "name": "KIA EV6",
-    "markets": ["USA"],
-    "make": "Kia",
-    "model": "EV6",
-    "year": "2021",
-    "images": [
-      { "path": "kia_ev6_video_petals_1920x1080" },
-      { "path": "kia_ev6_carousel_exterior_01_1160x653" },
-      { "path": "kia_ev6_carousel_exterior_03_1160x653" },
-      { "path": "kia_ev6_carousel_connectivity_03_1160x653" },
-      { "path": "kia_ev6_carousel_e-gmp_05_1160x653" },
-      { "path": "kia_ev6_carousel_exterior_04_1160x653" },
-      { "path": "kia_ev6_carousel_interior_03_1160x653" },
-      { "path": "kia_ev6_carousel_interior_06_1160x653" },
-      { "path": "kia_ev6_configuration_1920x1080" },
-      { "path": "kia_ev6_sustainable-materials_hide_1160x580" },
-      { "path": "kia-ev6-gls-my22-glbglacier-20_0011" }
-    ],
-    "range": {
-      "WLTP": {
-        "km": 528
-      }
-    },
-    "acceleration": {
-      "zeroToHundred": 5.2
-    },
-    "cargoSpace": {
-      "liter": 490,
-      "maxLiter": 1300
-    }
-  },
-  {
-    "name": "Hyundai iONIQ 5",
-    "markets": ["USA"],
-    "make": "Hyundai",
-    "model": "iONIQ 5",
-    "year": "2021",
-    "images": [
-      { "path": "Hyundai_IONIQ5_exterior_front_design_4x3" },
-      { "path": "Hyundai_IONIQ5_exterior_rear_design_4x3" },
-      { "path": "14_OnBoard-Charger_mid_4x3" },
-      { "path": "15_1_SustainableDetails_mid_16x9" },
-      { "path": "HME_PI_NE_Top-Trim_INT_side-roominess_7088x4902_rgb_v005_4x3" },
-      { "path": "IONIQ5_features_tab_electric_seats_16x9" },
-      { "path": "IONIQ5_features_tab_power_tailgate_16x9" },
-      { "path": "IONIQ5_features_tab_voice_recognition_16x9" },
-      { "path": "NE-DE-GIW5YCZ7ZHH211_T5R_52910GI210_EXT_Frame_0006" },
-      { "path": "NE-DE-GIW5YCZ7ZHH211_U3P_52910GI210_EXT_Frame_0012" },
-      { "path": "NE-DE-GIW5YCZ7ZHH211_W3T_52910GI210_EXT_Frame_0001" },
-      { "path": "Photo6_Body-1_4x3" }
-    ],
-    "range": {
-      "WLTP": {
-        "km": 481
-      }
-    },
-    "acceleration": {
-      "zeroToHundred": 5.2
-    },
-    "cargoSpace": {
-      "liter": 311,
-      "maxLiter": 1587
-    }
-  },
-  {
-    "name": "Mazda MX-30",
-    "markets": ["USA"],
-    "make": "Mazda",
-    "model": "MX-30",
-    "year": "2021",
-    "images": [
-      { "path": "15ea0c4033524b4bbf7ae03d08c03a41" },
-      { "path": "7462e868a40b4ff895d17a4d57fc72e3" },
-      { "path": "b3fd870bba6b4757ba62b8ecb9f46884" },
-      { "path": "1a66ed9288ac4f44923cc27a0bfb17c4" },
-      { "path": "2a2154d2d71743c998b79708c4dcf437" },
-      { "path": "9ef3f398a1114f91917f822bc570aacf" }
-    ],
-    "range": {
-      "WLTP": {
-        "km": 200
-      }
-    },
-    "acceleration": {
-      "zeroToHundred": 9.7
-    },
-    "cargoSpace": {
-      "liter": 366,
-      "maxLiter": 1171
-    }
-  },
-  {
-    "name": "BMW iX",
-    "markets": ["USA"],
     "make": "BMW",
-    "model": "iX",
+    "model": "i3",
     "year": "2021",
     "images": [
-      { "path": "bmw-ix" },
-      { "path": "cq5dam.resized.img.1680.large.time1621586784308" },
-      { "path": "2021-07-14-bmw-ix-29" },
-      { "path": "bmw-ix-xdrive50-2021" }
+      {
+        "path": "BMW_i3_2019-01@2x"
+      },
+      {
+        "path": "BMW_i3_2019-02@2x"
+      },
+      {
+        "path": "BMW_i3_2019-03@2x"
+      },
+      {
+        "path": "BMW_i3_2019-04@2x"
+      },
+      {
+        "path": "BMW_i3_2019-19@2x"
+      },
+      {
+        "path": "BMW_i3_2019-20@2x"
+      },
+      {
+        "path": "BMW_i3_2019-21@2x"
+      },
+      {
+        "path": "BMW_i3_2019-22@2x"
+      },
+      {
+        "path": "BMW_i3_2019-24@2x"
+      },
+      {
+        "path": "BMW_i3_2019-25@2x"
+      }
     ],
     "range": {
       "WLTP": {
-        "km": 630
+        "km": 307
       }
     },
     "acceleration": {
-      "zeroToHundred": 4.6
+      "zeroToHundred": 7.3
     },
     "cargoSpace": {
-      "liter": 500,
-      "maxLiter": 1750
-    }
-  },
-  {
-    "name": "BMW iX3",
-    "markets": ["USA"],
-    "make": "BMW",
-    "model": "iX3",
-    "year": "2021",
-    "images": [
-      { "path": "P90432173-the-new-bmw-ix3-8-2021-2246px" },
-      { "path": "bmw_ix3_051" },
-      { "path": "2021-08-10-bmw-ix3-15" },
-      { "path": "P90432183_highRes_the-new-bmw-ix3-8-20-scaled" },
-      { "path": "2021-BMW-iX3-" }
-    ],
-    "range": {
-      "WLTP": {
-        "km": 458
-      }
-    },
-    "acceleration": {
-      "zeroToHundred": 6.3
-    },
-    "cargoSpace": {
-      "liter": 510,
-      "maxLiter": 1560
+      "liter": 260,
+      "maxLiter": 1100
     }
   },
   {
     "name": "BMW i4",
-    "markets": ["USA"],
+    "markets": [
+      "USA"
+    ],
     "make": "BMW",
     "model": "i4",
     "year": "2021",
     "images": [
-      { "path": "BMW_i4_eDrive40-01@2x" },
-      { "path": "BMW_i4_eDrive40-02@2x" },
-      { "path": "BMW_i4_eDrive40-03@2x" },
-      { "path": "BMW_i4_eDrive40-04@2x" },
-      { "path": "BMW_i4_eDrive40-11@2x" },
-      { "path": "BMW_i4_eDrive40-12@2x" },
-      { "path": "BMW_i4_eDrive40-13@2x" },
-      { "path": "BMW_i4_eDrive40-15@2x" },
-      { "path": "BMW_i4_eDrive40-18@2x" },
-      { "path": "BMW_i4_eDrive40-19@2x" },
-      { "path": "BMW_i4_eDrive40-20@2x" }
+      {
+        "path": "BMW_i4_eDrive40-01@2x"
+      },
+      {
+        "path": "BMW_i4_eDrive40-02@2x"
+      },
+      {
+        "path": "BMW_i4_eDrive40-03@2x"
+      },
+      {
+        "path": "BMW_i4_eDrive40-04@2x"
+      },
+      {
+        "path": "BMW_i4_eDrive40-11@2x"
+      },
+      {
+        "path": "BMW_i4_eDrive40-12@2x"
+      },
+      {
+        "path": "BMW_i4_eDrive40-13@2x"
+      },
+      {
+        "path": "BMW_i4_eDrive40-15@2x"
+      },
+      {
+        "path": "BMW_i4_eDrive40-18@2x"
+      },
+      {
+        "path": "BMW_i4_eDrive40-19@2x"
+      },
+      {
+        "path": "BMW_i4_eDrive40-20@2x"
+      }
     ],
     "range": {
       "WLTP": {
@@ -235,166 +157,171 @@
     }
   },
   {
-    "name": "Renault Zoe",
-    "markets": ["USA"],
-    "make": "Renault",
-    "model": "Zoe",
+    "name": "BMW iX3",
+    "markets": [
+      "USA"
+    ],
+    "make": "BMW",
+    "model": "iX3",
     "year": "2021",
     "images": [
-      { "path": "Renault_Zoe_2020-01@2x" },
-      { "path": "Renault_Zoe_2020-03@2x" },
-      { "path": "Renault_Zoe_2020-05@2x" },
-      { "path": "Renault_Zoe_2020-07@2x" },
-      { "path": "Renault_Zoe_2020-08@2x" },
-      { "path": "Renault_Zoe_2020-09@2x" },
-      { "path": "Renault_Zoe_2020-10@2x" },
-      { "path": "Renault_Zoe_2020-11@2x" },
-      { "path": "Renault_Zoe_2020-12@2x" },
-      { "path": "Renault_Zoe_2020-13@2x" },
-      { "path": "Renault_Zoe_2020-14@2x" },
-      { "path": "Renault_Zoe_2020-16@2x" },
-      { "path": "Renault_Zoe_2020-17@2x" },
-      { "path": "Renault_Zoe_2020-18@2x" },
-      { "path": "Renault_Zoe_2020-19@2x" },
-      { "path": "Renault_Zoe_2020-20@2x" },
-      { "path": "Renault_Zoe_2020-28@2x" }
+      {
+        "path": "P90432173-the-new-bmw-ix3-8-2021-2246px"
+      },
+      {
+        "path": "bmw_ix3_051"
+      },
+      {
+        "path": "2021-08-10-bmw-ix3-15"
+      },
+      {
+        "path": "P90432183_highRes_the-new-bmw-ix3-8-20-scaled"
+      },
+      {
+        "path": "2021-BMW-iX3-"
+      }
     ],
     "range": {
       "WLTP": {
-        "km": 384
+        "km": 458
       }
     },
     "acceleration": {
-      "zeroToHundred": 9.5
+      "zeroToHundred": 6.3
     },
     "cargoSpace": {
-      "liter": 338,
-      "maxLiter": 1225
+      "liter": 510,
+      "maxLiter": 1560
     }
   },
   {
-    "name": "Nissan Leaf",
-    "markets": ["USA"],
-    "make": "Nissan",
-    "model": "Leaf",
+    "name": "BMW iX",
+    "markets": [
+      "USA"
+    ],
+    "make": "BMW",
+    "model": "iX",
     "year": "2021",
     "images": [
-      { "path": "Nissan_Leaf_2018-01@2x" },
-      { "path": "Nissan_Leaf_2018-02@2x" },
-      { "path": "Nissan_Leaf_2018-05@2x" },
-      { "path": "Nissan_Leaf_2018-07@2x" },
-      { "path": "Nissan_Leaf_2018-08@2x" },
-      { "path": "Nissan_Leaf_2018-09@2x" },
-      { "path": "Nissan_Leaf_2018-10@2x" },
-      { "path": "Nissan_Leaf_2018-11@2x" },
-      { "path": "Nissan_Leaf_2018-12@2x" },
-      { "path": "Nissan_Leaf_2018-13@2x" },
-      { "path": "Nissan_Leaf_2018-14@2x" },
-      { "path": "Nissan_Leaf_2018-15@2x" },
-      { "path": "Nissan_Leaf_2018-16@2x" },
-      { "path": "Nissan_Leaf_2018-18@2x" },
-      { "path": "Nissan_Leaf_2018-19@2x" },
-      { "path": "Nissan_Leaf_2018-20@2x" },
-      { "path": "Nissan_Leaf_2018-21@2x" },
-      { "path": "Nissan_Leaf_2018-27@2x" },
-      { "path": "Nissan_Leaf_2018-30@2x" },
-      { "path": "Nissan_Leaf_2018-32@2x" },
-      { "path": "Nissan_Leaf_2018-33@2x" },
-      { "path": "Nissan_Leaf_2018-34@2x" },
-      { "path": "Nissan_Leaf_2018-35@2x" }
+      {
+        "path": "bmw-ix"
+      },
+      {
+        "path": "cq5dam.resized.img.1680.large.time1621586784308"
+      },
+      {
+        "path": "2021-07-14-bmw-ix-29"
+      },
+      {
+        "path": "bmw-ix-xdrive50-2021"
+      }
     ],
     "range": {
       "WLTP": {
-        "km": 270
+        "km": 630
       }
     },
     "acceleration": {
-      "zeroToHundred": 7.9
+      "zeroToHundred": 4.6
     },
     "cargoSpace": {
-      "liter": 435,
-      "maxLiter": 1176
+      "liter": 500,
+      "maxLiter": 1750
     }
   },
   {
-    "name": "Volvo XC40",
-    "markets": ["USA"],
-    "make": "Volvo",
-    "model": "XC40",
-    "year": "2022",
-    "images": [
-      { "path": "Volvo_XC40_Recharge-01@2x" },
-      { "path": "Volvo_XC40_Recharge-03@2x" },
-      { "path": "Volvo_XC40_Recharge-05@2x" },
-      { "path": "Volvo_XC40_Recharge-15@2x" },
-      { "path": "Volvo_XC40_Recharge-22@2x" },
-      { "path": "Volvo_XC40_Recharge-23@2x" },
-      { "path": "Volvo_XC40_Recharge-24@2x" },
-      { "path": "Volvo_XC40_Recharge-25@2x" },
-      { "path": "Volvo_XC40_Recharge-26@2x" }
+    "name": "Fiat 500e Hatchback",
+    "markets": [
+      "EU"
     ],
-    "range": {
-      "WLTP": {
-        "km": 272
-      }
-    },
-    "acceleration": {
-      "zeroToHundred": 7.4
-    },
-    "cargoSpace": {
-      "liter": 419,
-      "maxLiter": 1295
-    }
-  },
-  {
-    "name": "Volvo C40 Recharge",
-    "markets": ["USA"],
-    "make": "Volvo",
-    "model": "C40 Recharge",
+    "make": "Fiat",
+    "model": "500e Hatchback",
     "year": "2021",
     "images": [
-      { "path": "Volvo_C40_Recharge-01@2x" },
-      { "path": "Volvo_C40_Recharge-02@2x" },
-      { "path": "Volvo_C40_Recharge-07@2x" },
-      { "path": "Volvo_C40_Recharge-18@2x" },
-      { "path": "Volvo_C40_Recharge-19@2x" },
-      { "path": "Volvo_C40_Recharge-20@2x" },
-      { "path": "Volvo_C40_Recharge-21@2x" },
-      { "path": "Volvo_C40_Recharge-22@2x" },
-      { "path": "Volvo_C40_Recharge-24@2x" },
-      { "path": "Volvo_C40_Recharge-28@2x" }
+      {
+        "path": "Fiat_500e_Hatchback_2020-01@2x"
+      },
+      {
+        "path": "Fiat_500e_Hatchback_2020-02@2x"
+      },
+      {
+        "path": "Fiat_500e_Hatchback_2020-03@2x"
+      },
+      {
+        "path": "Fiat_500e_Hatchback_2020-10@2x"
+      },
+      {
+        "path": "Fiat_500e_Hatchback_2020-11@2x"
+      },
+      {
+        "path": "Fiat_500e_Hatchback_2020-12@2x"
+      },
+      {
+        "path": "Fiat_500e_Hatchback_2020-13@2x"
+      },
+      {
+        "path": "Fiat_500e_Hatchback_2020-14@2x"
+      },
+      {
+        "path": "Fiat_500e_Hatchback_2020-15@2x"
+      }
     ],
     "range": {
       "WLTP": {
-        "km": 420
+        "km": 320
       }
     },
     "acceleration": {
-      "zeroToHundred": 4.7
+      "zeroToHundred": 9
     },
     "cargoSpace": {
-      "liter": 419,
-      "maxLiter": 1205
+      "liter": 185,
+      "maxLiter": 550
     }
   },
   {
     "name": "Ford Mustang Mach-E",
-    "markets": ["USA", "EU"],
+    "markets": [
+      "USA",
+      "EU"
+    ],
     "make": "Ford",
     "model": "Mustang Mach-E",
     "year": "2021",
     "images": [
-      { "path": "Ford_Mustang_Mach-E-01@2x" },
-      { "path": "Ford_Mustang_Mach-E-02@2x" },
-      { "path": "Ford_Mustang_Mach-E-09@2x" },
-      { "path": "Ford_Mustang_Mach-E-10@2x" },
-      { "path": "Ford_Mustang_Mach-E-15@2x" },
-      { "path": "Ford_Mustang_Mach-E-16@2x" },
-      { "path": "Ford_Mustang_Mach-E-17@2x" },
-      { "path": "Ford_Mustang_Mach-E-18@2x" },
-      { "path": "Ford_Mustang_Mach-E-20@2x" },
-      { "path": "Ford_Mustang_Mach-E-21@2x" },
-      { "path": "Ford_Mustang_Mach-E-23@2x" }
+      {
+        "path": "Ford_Mustang_Mach-E-01@2x"
+      },
+      {
+        "path": "Ford_Mustang_Mach-E-02@2x"
+      },
+      {
+        "path": "Ford_Mustang_Mach-E-09@2x"
+      },
+      {
+        "path": "Ford_Mustang_Mach-E-10@2x"
+      },
+      {
+        "path": "Ford_Mustang_Mach-E-15@2x"
+      },
+      {
+        "path": "Ford_Mustang_Mach-E-16@2x"
+      },
+      {
+        "path": "Ford_Mustang_Mach-E-17@2x"
+      },
+      {
+        "path": "Ford_Mustang_Mach-E-18@2x"
+      },
+      {
+        "path": "Ford_Mustang_Mach-E-20@2x"
+      },
+      {
+        "path": "Ford_Mustang_Mach-E-21@2x"
+      },
+      {
+        "path": "Ford_Mustang_Mach-E-23@2x"
+      }
     ],
     "range": {
       "WLTP": {
@@ -410,32 +337,671 @@
     }
   },
   {
-    "name": "Audi Q4 e-tron",
-    "markets": ["USA", "EU"],
-    "make": "Audi",
-    "model": "Q4 e-tron",
+    "name": "Hyundai iONIQ 5",
+    "markets": [
+      "USA"
+    ],
+    "make": "Hyundai",
+    "model": "iONIQ 5",
     "year": "2021",
     "images": [
-      { "path": "Audi_Q4_e-tron_2021-10@2x" },
-      { "path": "Audi_Q4_e-tron_2021-05@2x" },
-      { "path": "Audi_Q4_e-tron_2021-08@2x" },
-      { "path": "Audi_Q4_e-tron_2021-22@2x" },
-      { "path": "Audi_Q4_e-tron_2021-25@2x" },
-      { "path": "Audi_Q4_e-tron_2021-28@2x" },
-      { "path": "Audi_Q4_e-tron_2021-30@2x" },
-      { "path": "Audi_Q4_e-tron_2021-32@2x" }
+      {
+        "path": "Hyundai_IONIQ5_exterior_front_design_4x3"
+      },
+      {
+        "path": "Hyundai_IONIQ5_exterior_rear_design_4x3"
+      },
+      {
+        "path": "14_OnBoard-Charger_mid_4x3"
+      },
+      {
+        "path": "15_1_SustainableDetails_mid_16x9"
+      },
+      {
+        "path": "HME_PI_NE_Top-Trim_INT_side-roominess_7088x4902_rgb_v005_4x3"
+      },
+      {
+        "path": "IONIQ5_features_tab_electric_seats_16x9"
+      },
+      {
+        "path": "IONIQ5_features_tab_power_tailgate_16x9"
+      },
+      {
+        "path": "IONIQ5_features_tab_voice_recognition_16x9"
+      },
+      {
+        "path": "NE-DE-GIW5YCZ7ZHH211_T5R_52910GI210_EXT_Frame_0006"
+      },
+      {
+        "path": "NE-DE-GIW5YCZ7ZHH211_U3P_52910GI210_EXT_Frame_0012"
+      },
+      {
+        "path": "NE-DE-GIW5YCZ7ZHH211_W3T_52910GI210_EXT_Frame_0001"
+      },
+      {
+        "path": "Photo6_Body-1_4x3"
+      }
     ],
     "range": {
       "WLTP": {
-        "km": 500
+        "km": 481
       }
     },
     "acceleration": {
-      "zeroToHundred": 8.5
+      "zeroToHundred": 5.2
     },
     "cargoSpace": {
-      "liter": 520,
-      "maxLiter": 1490
+      "liter": 311,
+      "maxLiter": 1587
+    }
+  },
+  {
+    "name": "KIA EV6",
+    "markets": [
+      "USA"
+    ],
+    "make": "Kia",
+    "model": "EV6",
+    "year": "2021",
+    "images": [
+      {
+        "path": "kia_ev6_video_petals_1920x1080"
+      },
+      {
+        "path": "kia_ev6_carousel_exterior_01_1160x653"
+      },
+      {
+        "path": "kia_ev6_carousel_exterior_03_1160x653"
+      },
+      {
+        "path": "kia_ev6_carousel_connectivity_03_1160x653"
+      },
+      {
+        "path": "kia_ev6_carousel_e-gmp_05_1160x653"
+      },
+      {
+        "path": "kia_ev6_carousel_exterior_04_1160x653"
+      },
+      {
+        "path": "kia_ev6_carousel_interior_03_1160x653"
+      },
+      {
+        "path": "kia_ev6_carousel_interior_06_1160x653"
+      },
+      {
+        "path": "kia_ev6_configuration_1920x1080"
+      },
+      {
+        "path": "kia_ev6_sustainable-materials_hide_1160x580"
+      },
+      {
+        "path": "kia-ev6-gls-my22-glbglacier-20_0011"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 528
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 5.2
+    },
+    "cargoSpace": {
+      "liter": 490,
+      "maxLiter": 1300
+    }
+  },
+  {
+    "name": "Mazda MX-30",
+    "markets": [
+      "USA"
+    ],
+    "make": "Mazda",
+    "model": "MX-30",
+    "year": "2021",
+    "images": [
+      {
+        "path": "15ea0c4033524b4bbf7ae03d08c03a41"
+      },
+      {
+        "path": "7462e868a40b4ff895d17a4d57fc72e3"
+      },
+      {
+        "path": "b3fd870bba6b4757ba62b8ecb9f46884"
+      },
+      {
+        "path": "1a66ed9288ac4f44923cc27a0bfb17c4"
+      },
+      {
+        "path": "2a2154d2d71743c998b79708c4dcf437"
+      },
+      {
+        "path": "9ef3f398a1114f91917f822bc570aacf"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 200
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 9.7
+    },
+    "cargoSpace": {
+      "liter": 366,
+      "maxLiter": 1171
+    }
+  },
+  {
+    "name": "Nissan Leaf",
+    "markets": [
+      "USA"
+    ],
+    "make": "Nissan",
+    "model": "Leaf",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Nissan_Leaf_2018-01@2x"
+      },
+      {
+        "path": "Nissan_Leaf_2018-02@2x"
+      },
+      {
+        "path": "Nissan_Leaf_2018-05@2x"
+      },
+      {
+        "path": "Nissan_Leaf_2018-07@2x"
+      },
+      {
+        "path": "Nissan_Leaf_2018-08@2x"
+      },
+      {
+        "path": "Nissan_Leaf_2018-09@2x"
+      },
+      {
+        "path": "Nissan_Leaf_2018-10@2x"
+      },
+      {
+        "path": "Nissan_Leaf_2018-11@2x"
+      },
+      {
+        "path": "Nissan_Leaf_2018-12@2x"
+      },
+      {
+        "path": "Nissan_Leaf_2018-13@2x"
+      },
+      {
+        "path": "Nissan_Leaf_2018-14@2x"
+      },
+      {
+        "path": "Nissan_Leaf_2018-15@2x"
+      },
+      {
+        "path": "Nissan_Leaf_2018-16@2x"
+      },
+      {
+        "path": "Nissan_Leaf_2018-18@2x"
+      },
+      {
+        "path": "Nissan_Leaf_2018-19@2x"
+      },
+      {
+        "path": "Nissan_Leaf_2018-20@2x"
+      },
+      {
+        "path": "Nissan_Leaf_2018-21@2x"
+      },
+      {
+        "path": "Nissan_Leaf_2018-27@2x"
+      },
+      {
+        "path": "Nissan_Leaf_2018-30@2x"
+      },
+      {
+        "path": "Nissan_Leaf_2018-32@2x"
+      },
+      {
+        "path": "Nissan_Leaf_2018-33@2x"
+      },
+      {
+        "path": "Nissan_Leaf_2018-34@2x"
+      },
+      {
+        "path": "Nissan_Leaf_2018-35@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 270
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 7.9
+    },
+    "cargoSpace": {
+      "liter": 435,
+      "maxLiter": 1176
+    }
+  },
+  {
+    "name": "Renault Zoe",
+    "markets": [
+      "USA"
+    ],
+    "make": "Renault",
+    "model": "Zoe",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Renault_Zoe_2020-01@2x"
+      },
+      {
+        "path": "Renault_Zoe_2020-03@2x"
+      },
+      {
+        "path": "Renault_Zoe_2020-05@2x"
+      },
+      {
+        "path": "Renault_Zoe_2020-07@2x"
+      },
+      {
+        "path": "Renault_Zoe_2020-08@2x"
+      },
+      {
+        "path": "Renault_Zoe_2020-09@2x"
+      },
+      {
+        "path": "Renault_Zoe_2020-10@2x"
+      },
+      {
+        "path": "Renault_Zoe_2020-11@2x"
+      },
+      {
+        "path": "Renault_Zoe_2020-12@2x"
+      },
+      {
+        "path": "Renault_Zoe_2020-13@2x"
+      },
+      {
+        "path": "Renault_Zoe_2020-14@2x"
+      },
+      {
+        "path": "Renault_Zoe_2020-16@2x"
+      },
+      {
+        "path": "Renault_Zoe_2020-17@2x"
+      },
+      {
+        "path": "Renault_Zoe_2020-18@2x"
+      },
+      {
+        "path": "Renault_Zoe_2020-19@2x"
+      },
+      {
+        "path": "Renault_Zoe_2020-20@2x"
+      },
+      {
+        "path": "Renault_Zoe_2020-28@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 384
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 9.5
+    },
+    "cargoSpace": {
+      "liter": 338,
+      "maxLiter": 1225
+    }
+  },
+  {
+    "name": "Skoda Enyaq iV 80x",
+    "markets": [
+      "USA"
+    ],
+    "make": "Skoda",
+    "model": "Enyaq iV 80x",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Skoda_Enyaq_iV_2020-01@2x"
+      },
+      {
+        "path": "Skoda_Enyaq_iV_2020-02@2x"
+      },
+      {
+        "path": "Skoda_Enyaq_iV_2020-07@2x"
+      },
+      {
+        "path": "Skoda_Enyaq_iV_2020-10@2x"
+      },
+      {
+        "path": "Skoda_Enyaq_iV_2020-21@2x"
+      },
+      {
+        "path": "Skoda_Enyaq_iV_2020-24@2x"
+      },
+      {
+        "path": "Skoda_Enyaq_iV_2020-28@2x"
+      },
+      {
+        "path": "Skoda_Enyaq_iV_2020-29@2x"
+      },
+      {
+        "path": "Skoda_Enyaq_iV_2020-30@2x"
+      },
+      {
+        "path": "Skoda_Enyaq_iV_2020-32@2x"
+      },
+      {
+        "path": "Skoda_Enyaq_iV_2020-33@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 495
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 6.9
+    },
+    "cargoSpace": {
+      "liter": 585,
+      "maxLiter": 1710
+    }
+  },
+  {
+    "name": "Tesla Model X",
+    "markets": [
+      "EU",
+      "USA"
+    ],
+    "make": "Tesla",
+    "model": "Model X Plaid",
+    "year": "2021",
+    "images": [
+      {
+        "path": "MX-Hero-Desktop"
+      },
+      {
+        "path": "MX-Exterior-Grid-A-Desktop"
+      },
+      {
+        "path": "MX-Exterior-Grid-B-Desktop"
+      },
+      {
+        "path": "MX-Exterior-Grid-C-Desktop"
+      },
+      {
+        "path": "MX-Exterior-Hero-Desktop"
+      },
+      {
+        "path": "MX-Interior-Carousel-B-Desktop"
+      },
+      {
+        "path": "MX-Interior-Carousel-C-Desktop"
+      },
+      {
+        "path": "MX-Interior-Carousel-D-Desktop"
+      },
+      {
+        "path": "MX-Interior-Grid-B-Desktop"
+      },
+      {
+        "path": "MX-Interior-Grid-C-Desktop"
+      },
+      {
+        "path": "MX-Performance-Hero-Desktop"
+      },
+      {
+        "path": "MX-Range-Hero-Desktop"
+      },
+      {
+        "path": "MX-Safety-Hero-Desktop"
+      },
+      {
+        "path": "MX-Utility-Hero-Desktop"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 536
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 2.6
+    },
+    "cargoSpace": {
+      "liter": 1145,
+      "maxLiter": 2577
+    }
+  },
+  {
+    "name": "Tesla Model Y",
+    "markets": [
+      "EU"
+    ],
+    "make": "Tesla",
+    "model": "Model Y",
+    "year": "2021",
+    "images": [
+      {
+        "path": "model-y-portrait@2"
+      },
+      {
+        "path": "AWD_hero-portrait@2"
+      },
+      {
+        "path": "Range_Desktop-poster"
+      },
+      {
+        "path": "utility-poster"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 507
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 3.7
+    },
+    "cargoSpace": {
+      "liter": 854,
+      "maxLiter": 2158
+    }
+  },
+  {
+    "name": "Tesla Model S Plaid",
+    "markets": [
+      "EU"
+    ],
+    "make": "Tesla",
+    "model": "Model S Plaid",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Tesla_Model_S_2021-04@2x"
+      },
+      {
+        "path": "Tesla_Model_S_2021-02@2x"
+      },
+      {
+        "path": "Tesla_Model_S_2021-03@2x"
+      },
+      {
+        "path": "Tesla_Model_S_2021-05@2x"
+      },
+      {
+        "path": "Tesla_Model_S_2021-06@2x"
+      },
+      {
+        "path": "Tesla_Model_S_2021-07@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 627
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 2.1
+    },
+    "cargoSpace": {
+      "liter": 793
+    }
+  },
+  {
+    "name": "Tesla Model 3 Long Range",
+    "markets": [
+      "EU"
+    ],
+    "make": "Tesla",
+    "model": "Model 3 Long Range",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Tesla_Model_3_2021-01@2x"
+      },
+      {
+        "path": "Tesla_Model_3_2021-03@2x"
+      },
+      {
+        "path": "Tesla_Model_3_2021-04@2x"
+      },
+      {
+        "path": "Tesla_Model_3_2021-05@2x"
+      },
+      {
+        "path": "Tesla_Model_3_2021-06@2x"
+      },
+      {
+        "path": "Tesla_Model_3_2021-08@2x"
+      },
+      {
+        "path": "Tesla_Model_3_2021-09@2x"
+      },
+      {
+        "path": "Tesla_Model_3_2021-10@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 614
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 4.4
+    },
+    "cargoSpace": {
+      "liter": 649
+    }
+  },
+  {
+    "name": "Volvo C40 Recharge",
+    "markets": [
+      "USA"
+    ],
+    "make": "Volvo",
+    "model": "C40 Recharge",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Volvo_C40_Recharge-01@2x"
+      },
+      {
+        "path": "Volvo_C40_Recharge-02@2x"
+      },
+      {
+        "path": "Volvo_C40_Recharge-07@2x"
+      },
+      {
+        "path": "Volvo_C40_Recharge-18@2x"
+      },
+      {
+        "path": "Volvo_C40_Recharge-19@2x"
+      },
+      {
+        "path": "Volvo_C40_Recharge-20@2x"
+      },
+      {
+        "path": "Volvo_C40_Recharge-21@2x"
+      },
+      {
+        "path": "Volvo_C40_Recharge-22@2x"
+      },
+      {
+        "path": "Volvo_C40_Recharge-24@2x"
+      },
+      {
+        "path": "Volvo_C40_Recharge-28@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 420
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 4.7
+    },
+    "cargoSpace": {
+      "liter": 419,
+      "maxLiter": 1205
+    }
+  },
+  {
+    "name": "Volvo XC40",
+    "markets": [
+      "USA"
+    ],
+    "make": "Volvo",
+    "model": "XC40",
+    "year": "2022",
+    "images": [
+      {
+        "path": "Volvo_XC40_Recharge-01@2x"
+      },
+      {
+        "path": "Volvo_XC40_Recharge-03@2x"
+      },
+      {
+        "path": "Volvo_XC40_Recharge-05@2x"
+      },
+      {
+        "path": "Volvo_XC40_Recharge-15@2x"
+      },
+      {
+        "path": "Volvo_XC40_Recharge-22@2x"
+      },
+      {
+        "path": "Volvo_XC40_Recharge-23@2x"
+      },
+      {
+        "path": "Volvo_XC40_Recharge-24@2x"
+      },
+      {
+        "path": "Volvo_XC40_Recharge-25@2x"
+      },
+      {
+        "path": "Volvo_XC40_Recharge-26@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 272
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 7.4
+    },
+    "cargoSpace": {
+      "liter": 419,
+      "maxLiter": 1295
     }
   }
 ]
