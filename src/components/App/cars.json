@@ -434,15 +434,15 @@
     ],
     "range": {
       "WLTP": {
-        "km": 481
+        "km": 484
       }
     },
     "acceleration": {
-      "zeroToHundred": 5.2
+      "zeroToHundred": 7.9
     },
     "cargoSpace": {
-      "liter": 311,
-      "maxLiter": 1587
+      "liter": 332,
+      "maxLiter": 1114
     }
   },
   {
