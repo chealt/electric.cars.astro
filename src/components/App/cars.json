@@ -1047,7 +1047,7 @@
     }
   },
   {
-    "name": "Toyota",
+    "name": "Toyota bZ4X",
     "markets": [
       "EU"
     ],
@@ -1102,7 +1102,7 @@
     }
   },
   {
-    "name": "Volkswagen",
+    "name": "Volkswagen ID.3",
     "markets": [
       "USA",
       "EU"
@@ -1159,6 +1159,69 @@
     "cargoSpace": {
       "liter": 385,
       "maxLiter": 1267
+    }
+  },
+  {
+    "name": "Volkswagen ID.4",
+    "markets": [
+      "USA",
+      "EU"
+    ],
+    "make": "Volkswagen",
+    "model": "ID.4 Pro Performance",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Volkswagen_ID4-04@2x"
+      },
+      {
+        "path": "Volkswagen_ID4-05@2x"
+      },
+      {
+        "path": "Volkswagen_ID4-06@2x"
+      },
+      {
+        "path": "Volkswagen_ID4-07@2x"
+      },
+      {
+        "path": "Volkswagen_ID4-08@2x"
+      },
+      {
+        "path": "Volkswagen_ID4-16@2x"
+      },
+      {
+        "path": "Volkswagen_ID4-17@2x"
+      },
+      {
+        "path": "Volkswagen_ID4-18@2x"
+      },
+      {
+        "path": "Volkswagen_ID4-19@2x"
+      },
+      {
+        "path": "Volkswagen_ID4-20@2x"
+      },
+      {
+        "path": "Volkswagen_ID4-22@2x"
+      },
+      {
+        "path": "Volkswagen_ID4-23@2x"
+      },
+      {
+        "path": "Volkswagen_ID4-29@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 521
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 8.5
+    },
+    "cargoSpace": {
+      "liter": 543,
+      "maxLiter": 1575
     }
   },
   {
