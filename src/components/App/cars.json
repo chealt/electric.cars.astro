@@ -638,6 +638,204 @@
     }
   },
   {
+    "name": "Mercedes EQA 250",
+    "markets": [
+      "USA",
+      "EU"
+    ],
+    "make": "Mercedes",
+    "model": "EQA 250",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Mercedes_EQA-12@2x"
+      },
+      {
+        "path": "Mercedes_EQA-13@2x"
+      },
+      {
+        "path": "Mercedes_EQA-14@2x"
+      },
+      {
+        "path": "Mercedes_EQA-15@2x"
+      },
+      {
+        "path": "Mercedes_EQA-16@2x"
+      },
+      {
+        "path": "Mercedes_EQA-17@2x"
+      },
+      {
+        "path": "Mercedes_EQA-18@2x"
+      },
+      {
+        "path": "Mercedes_EQA-20@2x"
+      },
+      {
+        "path": "Mercedes_EQA-21@2x"
+      },
+      {
+        "path": "Mercedes_EQA-22@2x"
+      },
+      {
+        "path": "Mercedes_EQA-24@2x"
+      },
+      {
+        "path": "Mercedes_EQA-26@2x"
+      },
+      {
+        "path": "Mercedes_EQA-27@2x"
+      },
+      {
+        "path": "Mercedes_EQA-29@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 426
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 8.9
+    },
+    "cargoSpace": {
+      "liter": 340,
+      "maxLiter": 1320
+    }
+  },
+  {
+    "name": "Mercedes EQC 400",
+    "markets": [
+      "USA",
+      "EU"
+    ],
+    "make": "Mercedes",
+    "model": "EQC 400",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Mercedes_EQC-04@2x"
+      },
+      {
+        "path": "Mercedes_EQC-05@2x"
+      },
+      {
+        "path": "Mercedes_EQC-07@2x"
+      },
+      {
+        "path": "Mercedes_EQC-08@2x"
+      },
+      {
+        "path": "Mercedes_EQC-10@2x"
+      },
+      {
+        "path": "Mercedes_EQC-11@2x"
+      },
+      {
+        "path": "Mercedes_EQC-16@2x"
+      },
+      {
+        "path": "Mercedes_EQC-17@2x"
+      },
+      {
+        "path": "Mercedes_EQC-18@2x"
+      },
+      {
+        "path": "Mercedes_EQC-19@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 410
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 5.1
+    },
+    "cargoSpace": {
+      "liter": 500,
+      "maxLiter": 1460
+    }
+  },
+  {
+    "name": "Mercedes EQS 450",
+    "markets": [
+      "USA",
+      "EU"
+    ],
+    "make": "Mercedes",
+    "model": "EQS 450",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Mercedes_EQS_2021-02@2x"
+      },
+      {
+        "path": "Mercedes_EQS_2021-03@2x"
+      },
+      {
+        "path": "Mercedes_EQS_2021-04@2x"
+      },
+      {
+        "path": "Mercedes_EQS_2021-05@2x"
+      },
+      {
+        "path": "Mercedes_EQS_2021-06@2x"
+      },
+      {
+        "path": "Mercedes_EQS_2021-07@2x"
+      },
+      {
+        "path": "Mercedes_EQS_2021-08@2x"
+      },
+      {
+        "path": "Mercedes_EQS_2021-09@2x"
+      },
+      {
+        "path": "Mercedes_EQS_2021-10@2x"
+      },
+      {
+        "path": "Mercedes_EQS_2021-11@2x"
+      },
+      {
+        "path": "Mercedes_EQS_2021-15@2x"
+      },
+      {
+        "path": "Mercedes_EQS_2021-16@2x"
+      },
+      {
+        "path": "Mercedes_EQS_2021-17@2x"
+      },
+      {
+        "path": "Mercedes_EQS_2021-18@2x"
+      },
+      {
+        "path": "Mercedes_EQS_2021-19@2x"
+      },
+      {
+        "path": "Mercedes_EQS_2021-21@2x"
+      },
+      {
+        "path": "Mercedes_EQS_2021-22@2x"
+      },
+      {
+        "path": "Mercedes_EQS_2021-26@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 783
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 6.2
+    },
+    "cargoSpace": {
+      "liter": 610,
+      "maxLiter": 1770
+    }
+  },
+  {
     "name": "Nissan Leaf",
     "markets": [
       "USA"
@@ -727,6 +925,56 @@
     "cargoSpace": {
       "liter": 435,
       "maxLiter": 1176
+    }
+  },
+  {
+    "name": "Porsche Taycan Turbo",
+    "markets": [
+      "USA",
+      "EU"
+    ],
+    "make": "Porsche",
+    "model": "Taycan Turbo",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Porsche_Taycan_Turbo-01@2x"
+      },
+      {
+        "path": "Porsche_Taycan_Turbo-03@2x"
+      },
+      {
+        "path": "Porsche_Taycan_Turbo-04@2x"
+      },
+      {
+        "path": "Porsche_Taycan_Turbo-05@2x"
+      },
+      {
+        "path": "Porsche_Taycan_Turbo-06@2x"
+      },
+      {
+        "path": "Porsche_Taycan_Turbo-09@2x"
+      },
+      {
+        "path": "Porsche_Taycan_Turbo-10@2x"
+      },
+      {
+        "path": "Porsche_Taycan_Turbo-14@2x"
+      },
+      {
+        "path": "Porsche_Taycan_Turbo-15@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 452
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 3.2
+    },
+    "cargoSpace": {
+      "liter": 366
     }
   },
   {
