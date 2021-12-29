@@ -569,6 +569,47 @@
     }
   },
   {
+    "name": "Jaguar I-Pace",
+    "markets": [
+      "USA"
+    ],
+    "make": "Jaguar",
+    "model": "I-Pace EV400",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Jaguar_I-Pace-2021-01@2x"
+      },
+      {
+        "path": "Jaguar_I-Pace-2021-07@2x"
+      },
+      {
+        "path": "Jaguar_I-Pace-2021-09@2x"
+      },
+      {
+        "path": "Jaguar_I-Pace-2021-17@2x"
+      },
+      {
+        "path": "Jaguar_I-Pace-2021-19@2x"
+      },
+      {
+        "path": "Jaguar_I-Pace-2021-23@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 469
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 4.8
+    },
+    "cargoSpace": {
+      "liter": 505,
+      "maxLiter": 1163
+    }
+  },
+  {
     "name": "KIA e-Niro",
     "markets": [
       "USA"
