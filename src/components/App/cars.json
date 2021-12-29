@@ -230,6 +230,72 @@
     }
   },
   {
+    "name": "Citroen e-C4",
+    "markets": [
+      "USA",
+      "EU"
+    ],
+    "make": "Citroen",
+    "model": "e-C4",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Citroen_e-C4-03@2x"
+      },
+      {
+        "path": "Citroen_e-C4-08@2x"
+      },
+      {
+        "path": "Citroen_e-C4-09@2x"
+      },
+      {
+        "path": "Citroen_e-C4-10@2x"
+      },
+      {
+        "path": "Citroen_e-C4-11@2x"
+      },
+      {
+        "path": "Citroen_e-C4-12@2x"
+      },
+      {
+        "path": "Citroen_e-C4-15@2x"
+      },
+      {
+        "path": "Citroen_e-C4-16@2x"
+      },
+      {
+        "path": "Citroen_e-C4-17@2x"
+      },
+      {
+        "path": "Citroen_e-C4-19@2x"
+      },
+      {
+        "path": "Citroen_e-C4-20@2x"
+      },
+      {
+        "path": "Citroen_e-C4-21@2x"
+      },
+      {
+        "path": "Citroen_e-C4-22@2x"
+      },
+      {
+        "path": "Citroen_e-C4-23@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 357
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 9.7
+    },
+    "cargoSpace": {
+      "liter": 380,
+      "maxLiter": 1250
+    }
+  },
+  {
     "name": "Fiat 500e Hatchback",
     "markets": [
       "EU"
