@@ -89,6 +89,69 @@
     }
   },
   {
+    "name": "Audi e-tron 55 quattro",
+    "markets": [
+      "USA",
+      "EU"
+    ],
+    "make": "Audi",
+    "model": "e-tron 55 quattro",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Audi_e-tron-01@2x"
+      },
+      {
+        "path": "Audi_e-tron-03@2x"
+      },
+      {
+        "path": "Audi_e-tron-07@2x"
+      },
+      {
+        "path": "Audi_e-tron-08@2x"
+      },
+      {
+        "path": "Audi_e-tron-11@2x"
+      },
+      {
+        "path": "Audi_e-tron-12@2x"
+      },
+      {
+        "path": "Audi_e-tron-14@2x"
+      },
+      {
+        "path": "Audi_e-tron-15@2x"
+      },
+      {
+        "path": "Audi_e-tron-16@2x"
+      },
+      {
+        "path": "Audi_e-tron-17@2x"
+      },
+      {
+        "path": "Audi_e-tron-19@2x"
+      },
+      {
+        "path": "Audi_e-tron-20@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 436
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 5.7
+    },
+    "cargoSpace": {
+      "liter": 660,
+      "maxLiter": 1725
+    },
+    "chargeTimes": {
+      "wallPlug": 44.25
+    }
+  },
+  {
     "name": "BMW i3",
     "markets": [
       "USA"
