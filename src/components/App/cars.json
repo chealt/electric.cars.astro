@@ -816,6 +816,50 @@
     }
   },
   {
+    "name": "Lexus UX 300e",
+    "markets": [
+      "USA",
+      "EU"
+    ],
+    "make": "Lexus",
+    "model": "UX 300e",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Lexus_UX_300e_Electric_2020-01@2x"
+      },
+      {
+        "path": "Lexus_UX_300e_Electric_2020-02@2x"
+      },
+      {
+        "path": "Lexus_UX_300e_Electric_2020-03@2x"
+      },
+      {
+        "path": "Lexus_UX_300e_Electric_2020-10@2x"
+      },
+      {
+        "path": "Lexus_UX_300e_Electric_2020-13@2x"
+      },
+      {
+        "path": "Lexus_UX_300e_Electric_2020-14@2x"
+      },
+      {
+        "path": "Lexus_UX_300e_Electric_2020-15@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 315
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 7.5
+    },
+    "cargoSpace": {
+      "liter": 367
+    }
+  },
+  {
     "name": "Mazda MX-30",
     "markets": [
       "USA"
