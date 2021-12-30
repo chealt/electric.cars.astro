@@ -38,6 +38,12 @@ dl {
   text-align: center;
 }
 
+@media (min-width: 800px) {
+  dl {
+    column-count: 4;
+  }
+}
+
 dd,
 dt {
   padding: var(--gutter-size--small) var(--gutter-size);
