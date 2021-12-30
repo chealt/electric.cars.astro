@@ -152,6 +152,66 @@
     }
   },
   {
+    "name": "Audi e-tron S Sportback",
+    "markets": [
+      "USA",
+      "EU"
+    ],
+    "make": "Audi",
+    "model": "e-tron S Sportback",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Audi_e-tron_S_Sportback_2020-01@2x"
+      },
+      {
+        "path": "Audi_e-tron_S_Sportback_2020-06@2x"
+      },
+      {
+        "path": "Audi_e-tron_S_Sportback_2020-07@2x"
+      },
+      {
+        "path": "Audi_e-tron_S_Sportback_2020-08@2x"
+      },
+      {
+        "path": "Audi_e-tron_S_Sportback_2020-13@2x"
+      },
+      {
+        "path": "Audi_e-tron_S_Sportback_2020-19@2x"
+      },
+      {
+        "path": "Audi_e-tron_S_Sportback_2020-20@2x"
+      },
+      {
+        "path": "Audi_e-tron_S_Sportback_2020-21@2x"
+      },
+      {
+        "path": "Audi_e-tron_S_Sportback_2020-22@2x"
+      },
+      {
+        "path": "Audi_e-tron_S_Sportback_2020-24@2x"
+      },
+      {
+        "path": "Audi_e-tron_S_Sportback_2020-25@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 379
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 4.5
+    },
+    "cargoSpace": {
+      "liter": 615,
+      "maxLiter": 1725
+    },
+    "chargeTimes": {
+      "wallPlug": 44.25
+    }
+  },
+  {
     "name": "BMW i3",
     "markets": [
       "USA"
