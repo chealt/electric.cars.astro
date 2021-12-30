@@ -943,6 +943,9 @@
     "cargoSpace": {
       "liter": 211,
       "maxLiter": 731
+    },
+    "chargeTimes": {
+      "wallPlug": 15
     }
   },
   {

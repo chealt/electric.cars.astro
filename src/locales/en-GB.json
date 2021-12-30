@@ -1,4 +1,9 @@
 {
   "page.title": "Electric Cars | comparison site",
-  "page.description": "A comparison site for electric cars on all markets."
+  "page.description": "A comparison site for electric cars on all markets.",
+  "kph": "kph",
+  "range": "range",
+  "cargoSpace": "cargo space",
+  "chargeTimes.wallPlug": "charging time (wall plug 2.3kW)",
+  "hour": "hour"
 }
