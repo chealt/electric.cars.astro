@@ -901,6 +901,51 @@
     }
   },
   {
+    "name": "Mini Electric",
+    "markets": [
+      "USA",
+      "EU"
+    ],
+    "make": "Mini",
+    "model": "Electric",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Mini_Electric_2021-01@2x"
+      },
+      {
+        "path": "Mini_Electric_2021-02@2x"
+      },
+      {
+        "path": "Mini_Electric_2021-05@2x"
+      },
+      {
+        "path": "Mini_Electric_2021-07@2x"
+      },
+      {
+        "path": "Mini_Electric_2021-08@2x"
+      },
+      {
+        "path": "Mini_Electric_2021-09@2x"
+      },
+      {
+        "path": "Mini_Electric_2021-11@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 233
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 7.3
+    },
+    "cargoSpace": {
+      "liter": 211,
+      "maxLiter": 731
+    }
+  },
+  {
     "name": "Mercedes EQA 250",
     "markets": [
       "USA",
