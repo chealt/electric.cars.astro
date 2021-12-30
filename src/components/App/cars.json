@@ -48,6 +48,47 @@
     }
   },
   {
+    "name": "Audi e-tron GT RS",
+    "markets": [
+      "USA",
+      "EU"
+    ],
+    "make": "Audi",
+    "model": "e-tron GT RS",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Audi_e-tron_GT_RS-01@2x"
+      },
+      {
+        "path": "Audi_e-tron_GT_RS-03@2x"
+      },
+      {
+        "path": "Audi_e-tron_GT_RS-11@2x"
+      },
+      {
+        "path": "Audi_e-tron_GT_RS-15@2x"
+      },
+      {
+        "path": "Audi_e-tron_GT_RS-16@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 471
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 3.3
+    },
+    "cargoSpace": {
+      "liter": 366
+    },
+    "chargeTimes": {
+      "wallPlug": 43.5
+    }
+  },
+  {
     "name": "BMW i3",
     "markets": [
       "USA"
@@ -462,7 +503,8 @@
   {
     "name": "Hyundai iONIQ 5",
     "markets": [
-      "USA"
+      "USA",
+      "EU"
     ],
     "make": "Hyundai",
     "model": "iONIQ 5",
