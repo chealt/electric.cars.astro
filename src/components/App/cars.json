@@ -45,6 +45,9 @@
     "cargoSpace": {
       "liter": 520,
       "maxLiter": 1490
+    },
+    "chargeTimes": {
+      "wallPlug": 39.25
     }
   },
   {
@@ -262,6 +265,9 @@
     "cargoSpace": {
       "liter": 260,
       "maxLiter": 1100
+    },
+    "chargeTimes": {
+      "wallPlug": 19.5
     }
   },
   {
@@ -318,6 +324,9 @@
     "cargoSpace": {
       "liter": 470,
       "maxLiter": 1290
+    },
+    "chargeTimes": {
+      "wallPlug": 41.5
     }
   },
   {
@@ -356,6 +365,9 @@
     "cargoSpace": {
       "liter": 510,
       "maxLiter": 1560
+    },
+    "chargeTimes": {
+      "wallPlug": 38
     }
   },
   {
@@ -391,6 +403,9 @@
     "cargoSpace": {
       "liter": 500,
       "maxLiter": 1750
+    },
+    "chargeTimes": {
+      "wallPlug": 54
     }
   },
   {
@@ -457,6 +472,9 @@
     "cargoSpace": {
       "liter": 380,
       "maxLiter": 1250
+    },
+    "chargeTimes": {
+      "wallPlug": 23.25
     }
   },
   {
@@ -507,16 +525,19 @@
     "cargoSpace": {
       "liter": 185,
       "maxLiter": 550
+    },
+    "chargeTimes": {
+      "wallPlug": 19.25
     }
   },
   {
-    "name": "Ford Mustang Mach-E",
+    "name": "Ford Mustang Mach-E GT",
     "markets": [
       "USA",
       "EU"
     ],
     "make": "Ford",
-    "model": "Mustang Mach-E",
+    "model": "Mustang Mach-E GT",
     "year": "2021",
     "images": [
       {
@@ -564,6 +585,9 @@
     "cargoSpace": {
       "liter": 322,
       "maxLiter": 1420
+    },
+    "chargeTimes": {
+      "wallPlug": 45
     }
   },
   {
@@ -621,6 +645,9 @@
     "cargoSpace": {
       "liter": 171,
       "maxLiter": 861
+    },
+    "chargeTimes": {
+      "wallPlug": 14.75
     }
   },
   {
@@ -681,6 +708,9 @@
     "cargoSpace": {
       "liter": 311,
       "maxLiter": 1587
+    },
+    "chargeTimes": {
+      "wallPlug": 37.25
     }
   },
   {
@@ -734,71 +764,16 @@
     "cargoSpace": {
       "liter": 357,
       "maxLiter": 1417
-    }
-  },
-  {
-    "name": "Hyundai iONIQ 5",
-    "markets": [
-      "USA"
-    ],
-    "make": "Hyundai",
-    "model": "iONIQ 5",
-    "year": "2021",
-    "images": [
-      {
-        "path": "Hyundai_IONIQ5_exterior_front_design_4x3"
-      },
-      {
-        "path": "Hyundai_IONIQ5_exterior_rear_design_4x3"
-      },
-      {
-        "path": "14_OnBoard-Charger_mid_4x3"
-      },
-      {
-        "path": "15_1_SustainableDetails_mid_16x9"
-      },
-      {
-        "path": "HME_PI_NE_Top-Trim_INT_side-roominess_7088x4902_rgb_v005_4x3"
-      },
-      {
-        "path": "IONIQ5_features_tab_electric_seats_16x9"
-      },
-      {
-        "path": "IONIQ5_features_tab_power_tailgate_16x9"
-      },
-      {
-        "path": "IONIQ5_features_tab_voice_recognition_16x9"
-      },
-      {
-        "path": "NE-DE-GIW5YCZ7ZHH211_T5R_52910GI210_EXT_Frame_0006"
-      },
-      {
-        "path": "NE-DE-GIW5YCZ7ZHH211_U3P_52910GI210_EXT_Frame_0012"
-      },
-      {
-        "path": "NE-DE-GIW5YCZ7ZHH211_W3T_52910GI210_EXT_Frame_0001"
-      },
-      {
-        "path": "Photo6_Body-1_4x3"
-      }
-    ],
-    "range": {
-      "WLTP": {
-        "km": 481
-      }
     },
-    "acceleration": {
-      "zeroToHundred": 5.2
-    },
-    "cargoSpace": {
-      "liter": 311,
-      "maxLiter": 1587
+    "chargeTimes": {
+      "wallPlug": 19.75
     }
   },
   {
     "name": "Hyundai Kona",
     "markets": [
-      "USA"
+      "USA",
+      "EU"
     ],
     "make": "Hyundai",
     "model": "Kona",
@@ -843,6 +818,9 @@
     "cargoSpace": {
       "liter": 332,
       "maxLiter": 1114
+    },
+    "chargeTimes": {
+      "wallPlug": 32.75
     }
   },
   {
@@ -884,12 +862,16 @@
     "cargoSpace": {
       "liter": 505,
       "maxLiter": 1163
+    },
+    "chargeTimes": {
+      "wallPlug": 43.5
     }
   },
   {
     "name": "KIA e-Niro",
     "markets": [
-      "USA"
+      "USA",
+      "EU"
     ],
     "make": "Kia",
     "model": "e-Niro",
@@ -922,12 +904,16 @@
     "cargoSpace": {
       "liter": 451,
       "maxLiter": 1405
+    },
+    "chargeTimes": {
+      "wallPlug": 32.75
     }
   },
   {
     "name": "KIA EV6",
     "markets": [
-      "USA"
+      "USA",
+      "EU"
     ],
     "make": "Kia",
     "model": "EV6",
@@ -978,6 +964,9 @@
     "cargoSpace": {
       "liter": 490,
       "maxLiter": 1300
+    },
+    "chargeTimes": {
+      "wallPlug": 39.75
     }
   },
   {
@@ -1022,6 +1011,9 @@
     },
     "cargoSpace": {
       "liter": 367
+    },
+    "chargeTimes": {
+      "wallPlug": 23.25
     }
   },
   {
@@ -1063,54 +1055,9 @@
     "cargoSpace": {
       "liter": 366,
       "maxLiter": 1171
-    }
-  },
-  {
-    "name": "Mini Electric",
-    "markets": [
-      "USA",
-      "EU"
-    ],
-    "make": "Mini",
-    "model": "Electric",
-    "year": "2021",
-    "images": [
-      {
-        "path": "Mini_Electric_2021-01@2x"
-      },
-      {
-        "path": "Mini_Electric_2021-02@2x"
-      },
-      {
-        "path": "Mini_Electric_2021-05@2x"
-      },
-      {
-        "path": "Mini_Electric_2021-07@2x"
-      },
-      {
-        "path": "Mini_Electric_2021-08@2x"
-      },
-      {
-        "path": "Mini_Electric_2021-09@2x"
-      },
-      {
-        "path": "Mini_Electric_2021-11@2x"
-      }
-    ],
-    "range": {
-      "WLTP": {
-        "km": 233
-      }
-    },
-    "acceleration": {
-      "zeroToHundred": 7.3
-    },
-    "cargoSpace": {
-      "liter": 211,
-      "maxLiter": 731
     },
     "chargeTimes": {
-      "wallPlug": 15
+      "wallPlug": 15.5
     }
   },
   {
@@ -1177,6 +1124,9 @@
     "cargoSpace": {
       "liter": 340,
       "maxLiter": 1320
+    },
+    "chargeTimes": {
+      "wallPlug": 34
     }
   },
   {
@@ -1231,6 +1181,9 @@
     "cargoSpace": {
       "liter": 500,
       "maxLiter": 1460
+    },
+    "chargeTimes": {
+      "wallPlug": 41
     }
   },
   {
@@ -1309,6 +1262,57 @@
     "cargoSpace": {
       "liter": 610,
       "maxLiter": 1770
+    },
+    "chargeTimes": {
+      "wallPlug": 55.25
+    }
+  },
+  {
+    "name": "Mini Electric",
+    "markets": [
+      "USA",
+      "EU"
+    ],
+    "make": "Mini",
+    "model": "Electric",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Mini_Electric_2021-01@2x"
+      },
+      {
+        "path": "Mini_Electric_2021-02@2x"
+      },
+      {
+        "path": "Mini_Electric_2021-05@2x"
+      },
+      {
+        "path": "Mini_Electric_2021-07@2x"
+      },
+      {
+        "path": "Mini_Electric_2021-08@2x"
+      },
+      {
+        "path": "Mini_Electric_2021-09@2x"
+      },
+      {
+        "path": "Mini_Electric_2021-11@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 233
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 7.3
+    },
+    "cargoSpace": {
+      "liter": 211,
+      "maxLiter": 731
+    },
+    "chargeTimes": {
+      "wallPlug": 15
     }
   },
   {
@@ -1401,6 +1405,9 @@
     "cargoSpace": {
       "liter": 435,
       "maxLiter": 1176
+    },
+    "chargeTimes": {
+      "wallPlug": 28.75
     }
   },
   {
@@ -1451,6 +1458,66 @@
     },
     "cargoSpace": {
       "liter": 366
+    },
+    "chargeTimes": {
+      "wallPlug": 43
+    }
+  },
+  {
+    "name": "Peugeot e-208 GT",
+    "markets": [
+      "USA",
+      "EU"
+    ],
+    "make": "Peugeot",
+    "model": "e-208 GT",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Peugeot_e-208_GT-01@2x"
+      },
+      {
+        "path": "Peugeot_e-208_GT-02@2x"
+      },
+      {
+        "path": "Peugeot_e-208_GT-06@2x"
+      },
+      {
+        "path": "Peugeot_e-208_GT-01@2x"
+      },
+      {
+        "path": "Peugeot_e-208_GT-09@2x"
+      },
+      {
+        "path": "Peugeot_e-208_GT-16@2x"
+      },
+      {
+        "path": "Peugeot_e-208_GT-17@2x"
+      },
+      {
+        "path": "Peugeot_e-208_GT-19@2x"
+      },
+      {
+        "path": "Peugeot_e-208_GT-21@2x"
+      },
+      {
+        "path": "Peugeot_e-208_GT-24@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 362
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 8.1
+    },
+    "cargoSpace": {
+      "liter": 265,
+      "maxLiter": 1106
+    },
+    "chargeTimes": {
+      "wallPlug": 23.25
     }
   },
   {
@@ -1525,6 +1592,9 @@
     "cargoSpace": {
       "liter": 338,
       "maxLiter": 1225
+    },
+    "chargeTimes": {
+      "wallPlug": 26.75
     }
   },
   {
@@ -1581,10 +1651,105 @@
     "cargoSpace": {
       "liter": 585,
       "maxLiter": 1710
+    },
+    "chargeTimes": {
+      "wallPlug": 39.5
     }
   },
   {
-    "name": "Tesla Model X",
+    "name": "Tesla Model 3 Long Range",
+    "markets": [
+      "EU"
+    ],
+    "make": "Tesla",
+    "model": "Model 3 Long Range",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Tesla_Model_3_2021-01@2x"
+      },
+      {
+        "path": "Tesla_Model_3_2021-03@2x"
+      },
+      {
+        "path": "Tesla_Model_3_2021-04@2x"
+      },
+      {
+        "path": "Tesla_Model_3_2021-05@2x"
+      },
+      {
+        "path": "Tesla_Model_3_2021-06@2x"
+      },
+      {
+        "path": "Tesla_Model_3_2021-08@2x"
+      },
+      {
+        "path": "Tesla_Model_3_2021-09@2x"
+      },
+      {
+        "path": "Tesla_Model_3_2021-10@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 614
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 4.4
+    },
+    "cargoSpace": {
+      "liter": 649
+    },
+    "chargeTimes": {
+      "wallPlug": 36
+    }
+  },
+  {
+    "name": "Tesla Model S Plaid",
+    "markets": [
+      "EU"
+    ],
+    "make": "Tesla",
+    "model": "Model S Plaid",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Tesla_Model_S_2021-04@2x"
+      },
+      {
+        "path": "Tesla_Model_S_2021-02@2x"
+      },
+      {
+        "path": "Tesla_Model_S_2021-03@2x"
+      },
+      {
+        "path": "Tesla_Model_S_2021-05@2x"
+      },
+      {
+        "path": "Tesla_Model_S_2021-06@2x"
+      },
+      {
+        "path": "Tesla_Model_S_2021-07@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 627
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 2.1
+    },
+    "cargoSpace": {
+      "liter": 793
+    },
+    "chargeTimes": {
+      "wallPlug": 48.75
+    }
+  },
+  {
+    "name": "Tesla Model X Plaid",
     "markets": [
       "EU",
       "USA"
@@ -1647,12 +1812,16 @@
     "cargoSpace": {
       "liter": 1145,
       "maxLiter": 2577
+    },
+    "chargeTimes": {
+      "wallPlug": 48.75
     }
   },
   {
     "name": "Tesla Model Y",
     "markets": [
-      "EU"
+      "EU",
+      "USA"
     ],
     "make": "Tesla",
     "model": "Model Y",
@@ -1682,98 +1851,16 @@
     "cargoSpace": {
       "liter": 854,
       "maxLiter": 2158
-    }
-  },
-  {
-    "name": "Tesla Model S Plaid",
-    "markets": [
-      "EU"
-    ],
-    "make": "Tesla",
-    "model": "Model S Plaid",
-    "year": "2021",
-    "images": [
-      {
-        "path": "Tesla_Model_S_2021-04@2x"
-      },
-      {
-        "path": "Tesla_Model_S_2021-02@2x"
-      },
-      {
-        "path": "Tesla_Model_S_2021-03@2x"
-      },
-      {
-        "path": "Tesla_Model_S_2021-05@2x"
-      },
-      {
-        "path": "Tesla_Model_S_2021-06@2x"
-      },
-      {
-        "path": "Tesla_Model_S_2021-07@2x"
-      }
-    ],
-    "range": {
-      "WLTP": {
-        "km": 627
-      }
     },
-    "acceleration": {
-      "zeroToHundred": 2.1
-    },
-    "cargoSpace": {
-      "liter": 793
-    }
-  },
-  {
-    "name": "Tesla Model 3 Long Range",
-    "markets": [
-      "EU"
-    ],
-    "make": "Tesla",
-    "model": "Model 3 Long Range",
-    "year": "2021",
-    "images": [
-      {
-        "path": "Tesla_Model_3_2021-01@2x"
-      },
-      {
-        "path": "Tesla_Model_3_2021-03@2x"
-      },
-      {
-        "path": "Tesla_Model_3_2021-04@2x"
-      },
-      {
-        "path": "Tesla_Model_3_2021-05@2x"
-      },
-      {
-        "path": "Tesla_Model_3_2021-06@2x"
-      },
-      {
-        "path": "Tesla_Model_3_2021-08@2x"
-      },
-      {
-        "path": "Tesla_Model_3_2021-09@2x"
-      },
-      {
-        "path": "Tesla_Model_3_2021-10@2x"
-      }
-    ],
-    "range": {
-      "WLTP": {
-        "km": 614
-      }
-    },
-    "acceleration": {
-      "zeroToHundred": 4.4
-    },
-    "cargoSpace": {
-      "liter": 649
+    "chargeTimes": {
+      "wallPlug": 39
     }
   },
   {
     "name": "Toyota bZ4X",
     "markets": [
-      "EU"
+      "EU",
+      "USA"
     ],
     "make": "Toyota",
     "model": "bZ4X",
@@ -1823,6 +1910,9 @@
     },
     "cargoSpace": {
       "liter": 452
+    },
+    "chargeTimes": {
+      "wallPlug": 36.75
     }
   },
   {
@@ -1883,6 +1973,9 @@
     "cargoSpace": {
       "liter": 385,
       "maxLiter": 1267
+    },
+    "chargeTimes": {
+      "wallPlug": 29.75
     }
   },
   {
@@ -1946,6 +2039,9 @@
     "cargoSpace": {
       "liter": 543,
       "maxLiter": 1575
+    },
+    "chargeTimes": {
+      "wallPlug": 39.5
     }
   },
   {
@@ -1999,6 +2095,9 @@
     "cargoSpace": {
       "liter": 419,
       "maxLiter": 1205
+    },
+    "chargeTimes": {
+      "wallPlug": 38.5
     }
   },
   {
@@ -2049,6 +2148,9 @@
     "cargoSpace": {
       "liter": 419,
       "maxLiter": 1295
+    },
+    "chargeTimes": {
+      "wallPlug": 34.5
     }
   }
 ]

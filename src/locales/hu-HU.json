@@ -5,5 +5,6 @@
   "range": "hatótávolság",
   "cargoSpace": "csomagtér (liter)",
   "chargeTimes.wallPlug": "töltési idő (fali 2.3kW)",
-  "hour": "óra"
+  "hours": "ó",
+  "minutes": "p"
 }
