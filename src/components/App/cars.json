@@ -1411,6 +1411,60 @@
     }
   },
   {
+    "name": "Opel Corsa-e",
+    "markets": [
+      "USA",
+      "EU"
+    ],
+    "make": "Opel",
+    "model": "Corsa-e",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Opel_Corsa-e-01@2x"
+      },
+      {
+        "path": "Opel_Corsa-e-03@2x"
+      },
+      {
+        "path": "Opel_Corsa-e-04@2x"
+      },
+      {
+        "path": "Opel_Corsa-e-09@2x"
+      },
+      {
+        "path": "Opel_Corsa-e-12@2x"
+      },
+      {
+        "path": "Opel_Corsa-e-13@2x"
+      },
+      {
+        "path": "Opel_Corsa-e-14@2x"
+      },
+      {
+        "path": "Opel_Corsa-e-15@2x"
+      },
+      {
+        "path": "Opel_Corsa-e-16@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 359
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 8.1
+    },
+    "cargoSpace": {
+      "liter": 309,
+      "maxLiter": 1118
+    },
+    "chargeTimes": {
+      "wallPlug": 23.25
+    }
+  },
+  {
     "name": "Porsche Taycan Turbo",
     "markets": [
       "USA",
