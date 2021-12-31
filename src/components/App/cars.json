@@ -1521,6 +1521,66 @@
     }
   },
   {
+    "name": "Renault Twingo ZE",
+    "markets": [
+      "USA",
+      "EU"
+    ],
+    "make": "Renault",
+    "model": "Twingo ZE",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Renault_Twingo_ZE_2020-01@2x"
+      },
+      {
+        "path": "Renault_Twingo_ZE_2020-02@2x"
+      },
+      {
+        "path": "Renault_Twingo_ZE_2020-03@2x"
+      },
+      {
+        "path": "Renault_Twingo_ZE_2020-04@2x"
+      },
+      {
+        "path": "Renault_Twingo_ZE_2020-05@2x"
+      },
+      {
+        "path": "Renault_Twingo_ZE_2020-06@2x"
+      },
+      {
+        "path": "Renault_Twingo_ZE_2020-08@2x"
+      },
+      {
+        "path": "Renault_Twingo_ZE_2020-09@2x"
+      },
+      {
+        "path": "Renault_Twingo_ZE_2020-14@2x"
+      },
+      {
+        "path": "Renault_Twingo_ZE_2020-15@2x"
+      },
+      {
+        "path": "Renault_Twingo_ZE_2020-16@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 190
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 12.6
+    },
+    "cargoSpace": {
+      "liter": 174,
+      "maxLiter": 980
+    },
+    "chargeTimes": {
+      "wallPlug": 11
+    }
+  },
+  {
     "name": "Renault Zoe",
     "markets": [
       "USA"
