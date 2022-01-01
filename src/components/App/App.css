@@ -95,9 +95,15 @@ option:checked {
 }
 
 dl {
-  column-count: 3;
+  column-count: 2;
   column-rule: 1px solid var(--color-divider);
   text-align: center;
+}
+
+@media (min-width: 800px) {
+  dl {
+    column-count: 4;
+  }
 }
 
 dd,

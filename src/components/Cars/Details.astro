@@ -3,7 +3,10 @@ import { getLocaleData } from '../../locales/utils.js';
 
 const locale = Astro.request.params.locale || 'en-US';
 const t = getLocaleData(locale);
-const { range: { WLTP: { km } }, acceleration: { zeroToHundred }, cargoSpace: { liter } } = Astro.props;
+const { range: { WLTP: { km } }, acceleration: { zeroToHundred }, cargoSpace: { liter }, chargeTimes } = Astro.props;
+
+const hours = chargeTimes?.wallPlug && Math.floor(chargeTimes?.wallPlug);
+const minutes = chargeTimes?.wallPlug && 60 * (chargeTimes.wallPlug - hours);
 ---
 <section>
   <dl>
@@ -13,5 +16,11 @@ const { range: { WLTP: { km } }, acceleration: { zeroToHundred }, cargoSpace: { 
     <dt>{t('range')} (WLTP)</dt>
     <dd>{liter}</dd>
     <dt>{t('cargoSpace')}</dt>
+    {chargeTimes && (
+      <dd>{`${hours} ${t('hours')} ${minutes ? minutes + ' ' + t('minutes') : ''}`}</dd>
+    ) || (
+      <dd>-</dd>
+    )}
+    <dt>{t('chargeTimes.wallPlug')}</dt>
   </dl>
 </section>
