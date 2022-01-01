@@ -1824,6 +1824,59 @@
     }
   },
   {
+    "name": "Smart EQ forfour",
+    "markets": [
+      "USA"
+    ],
+    "make": "Smart",
+    "model": "EQ forfour",
+    "year": "2021",
+    "images": [
+      {
+        "path": "Smart_forfour_2020-01@2x"
+      },
+      {
+        "path": "Smart_forfour_2020-02@2x"
+      },
+      {
+        "path": "Smart_forfour_2020-03@2x"
+      },
+      {
+        "path": "Smart_forfour_2020-04@2x"
+      },
+      {
+        "path": "Smart_forfour_2020-05@2x"
+      },
+      {
+        "path": "Smart_forfour_2020-06@2x"
+      },
+      {
+        "path": "Smart_forfour_2020-08@2x"
+      },
+      {
+        "path": "Smart_forfour_2020-12@2x"
+      },
+      {
+        "path": "Smart_forfour_2020-13@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 130
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 12.7
+    },
+    "cargoSpace": {
+      "liter": 185,
+      "maxLiter": 975
+    },
+    "chargeTimes": {
+      "wallPlug": 8.75
+    }
+  },
+  {
     "name": "Tesla Model 3 Long Range",
     "markets": [
       "EU"
