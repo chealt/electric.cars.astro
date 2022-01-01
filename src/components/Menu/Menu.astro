@@ -3,13 +3,13 @@ import Form from '../Form/Form.astro';
 import Switch from '../Switch/Switch.astro';
 import { getLocaleData } from '../../locales/utils.js';
 
-import './Filter.css';
+import './Menu.css';
 
 const locale = Astro.request.params.locale || 'en-US';
 const t = getLocaleData(locale);
 ---
 <Switch name="menu-opener">{t('menu')}</Switch>
-<Form name="filter" class="filter background fader">
+<Form name="menu" class="menu background fader">
   <!--
     TODO: implement using Select and Option components once the following is fixed
     https://github.com/withastro/astro/issues/1807
@@ -24,7 +24,7 @@ const t = getLocaleData(locale);
 </Form>
 <script>
   const $cars = document.querySelectorAll('.car');
-  const $selectedMarkets = document.forms.filter.markets.selectedOptions;
+  const $selectedMarkets = document.forms.menu.markets.selectedOptions;
 
   const filterCarsList = () => {
     const selectedMarkets = [...$selectedMarkets];

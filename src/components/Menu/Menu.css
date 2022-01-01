@@ -1,4 +1,4 @@
-#menu-opener:checked ~ .filter {
+#menu-opener:checked ~ .menu {
   visibility: visible;
   opacity: 1;
 }
