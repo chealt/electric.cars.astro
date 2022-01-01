@@ -1712,6 +1712,59 @@
     }
   },
   {
+    "name": "Seat Mii Electric",
+    "markets": [
+      "USA"
+    ],
+    "make": "Seat",
+    "model": "Mii Electric",
+    "year": "2021",
+    "images": [
+      {
+        "path": "SEAT_eMii-14@2x"
+      },
+      {
+        "path": "SEAT_eMii-09@2x"
+      },
+      {
+        "path": "SEAT_eMii-11@2x"
+      },
+      {
+        "path": "SEAT_eMii-17@2x"
+      },
+      {
+        "path": "SEAT_eMii-18@2x"
+      },
+      {
+        "path": "SEAT_eMii-19@2x"
+      },
+      {
+        "path": "SEAT_eMii-21@2x"
+      },
+      {
+        "path": "SEAT_eMii-22@2x"
+      },
+      {
+        "path": "SEAT_eMii-23@2x"
+      }
+    ],
+    "range": {
+      "WLTP": {
+        "km": 259
+      }
+    },
+    "acceleration": {
+      "zeroToHundred": 12.3
+    },
+    "cargoSpace": {
+      "liter": 251,
+      "maxLiter": 923
+    },
+    "chargeTimes": {
+      "wallPlug": 16.75
+    }
+  },
+  {
     "name": "Skoda Enyaq iV 80x",
     "markets": [
       "USA"
