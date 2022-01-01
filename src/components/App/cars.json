@@ -59,8 +59,9 @@
   {
     "name": "Audi e-tron GT RS",
     "markets": [
-      "USA",
-      "EU"
+      "GB",
+      "HU",
+      "US"
     ],
     "make": "Audi",
     "model": "e-tron GT RS",
@@ -95,6 +96,11 @@
     },
     "chargeTimes": {
       "wallPlug": 43.5
+    },
+    "prices": {
+      "GB": 113200,
+      "HU": 54057550,
+      "US": 142400
     }
   },
   {
