@@ -2,8 +2,9 @@
   {
     "name": "Audi Q4 e-tron",
     "markets": [
-      "USA",
-      "EU"
+      "GB",
+      "HU",
+      "US"
     ],
     "make": "Audi",
     "model": "Q4 e-tron",
@@ -48,6 +49,11 @@
     },
     "chargeTimes": {
       "wallPlug": 39.25
+    },
+    "prices": {
+      "GB": 44990,
+      "HU": 19100800,
+      "US": 43900
     }
   },
   {
