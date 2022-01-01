@@ -77,6 +77,12 @@ label {
   align-content: flex-start;
   align-items: flex-start;
   gap: var(--gutter-size--large);
+  text-transform: capitalize;
+}
+
+select,
+input {
+  min-width: 10rem;
 }
 
 select {
