@@ -1,11 +1,11 @@
 {
   "cargoSpace": "csomagtér (liter)",
-  "kph": "km/h",
-  "menu": "menu",
-  "page.description": "Összehasonlító app elektromos autókhoz.",
-  "page.title": "Elektromos Autók | Összehasonlító app",
-  "range": "hatótávolság",
   "chargeTimes.wallPlug": "töltési idő (fali 2.3kW)",
   "hours": "ó",
-  "minutes": "p"
+  "kph": "km/h",
+  "menu": "menu",
+  "minutes": "p",
+  "page.description": "Összehasonlító app elektromos autókhoz.",
+  "page.title": "Elektromos Autók | Összehasonlító app",
+  "range": "hatótávolság"
 }
