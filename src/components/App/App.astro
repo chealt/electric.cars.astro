@@ -1,5 +1,5 @@
 ---
-import Filter from '../Filter/Filter.astro'
+import Menu from '../Menu/Menu.astro'
 import Cars from '../Cars/Cars.astro'
 import cars from './cars.json';
 import { getLocale, getLocaleData } from '../../locales/utils.js';
@@ -21,9 +21,9 @@ const t = getLocaleData(locale);
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 </head>
 <body>
-  <Filter />
   <main>
     <Cars cars={cars} />
   </main>
+  <Menu />
 </body>
 </html>

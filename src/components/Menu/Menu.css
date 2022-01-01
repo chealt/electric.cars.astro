@@ -1,0 +1,10 @@
+#menu-opener:checked ~ .menu {
+  visibility: visible;
+  opacity: 1;
+}
+
+.switch {
+  position: fixed;
+  bottom: var(--gutter-size);
+  right: var(--gutter-size);
+}

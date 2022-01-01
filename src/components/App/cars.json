@@ -217,7 +217,8 @@
   {
     "name": "BMW i3",
     "markets": [
-      "USA"
+      "USA",
+      "EU"
     ],
     "make": "BMW",
     "model": "i3",
@@ -273,7 +274,8 @@
   {
     "name": "BMW i4",
     "markets": [
-      "USA"
+      "USA",
+      "EU"
     ],
     "make": "BMW",
     "model": "i4",
@@ -332,7 +334,8 @@
   {
     "name": "BMW iX3",
     "markets": [
-      "USA"
+      "USA",
+      "EU"
     ],
     "make": "BMW",
     "model": "iX3",
@@ -373,7 +376,8 @@
   {
     "name": "BMW iX",
     "markets": [
-      "USA"
+      "USA",
+      "EU"
     ],
     "make": "BMW",
     "model": "iX",
@@ -480,7 +484,8 @@
   {
     "name": "Fiat 500e Hatchback",
     "markets": [
-      "EU"
+      "EU",
+      "USA"
     ],
     "make": "Fiat",
     "model": "500e Hatchback",
@@ -716,7 +721,8 @@
   {
     "name": "Hyundai iONIQ",
     "markets": [
-      "USA"
+      "USA",
+      "EU"
     ],
     "make": "Hyundai",
     "model": "iONIQ",
@@ -826,7 +832,8 @@
   {
     "name": "Jaguar I-Pace",
     "markets": [
-      "USA"
+      "USA",
+      "EU"
     ],
     "make": "Jaguar",
     "model": "I-Pace EV400",
@@ -1318,7 +1325,8 @@
   {
     "name": "Nissan Leaf",
     "markets": [
-      "USA"
+      "USA",
+      "EU"
     ],
     "make": "Nissan",
     "model": "Leaf",
@@ -1637,7 +1645,8 @@
   {
     "name": "Renault Zoe",
     "markets": [
-      "USA"
+      "USA",
+      "EU"
     ],
     "make": "Renault",
     "model": "Zoe",
@@ -1767,7 +1776,8 @@
   {
     "name": "Skoda Enyaq iV 80x",
     "markets": [
-      "USA"
+      "USA",
+      "EU"
     ],
     "make": "Skoda",
     "model": "Enyaq iV 80x",
@@ -1879,7 +1889,8 @@
   {
     "name": "Tesla Model 3 Long Range",
     "markets": [
-      "EU"
+      "EU",
+      "USA"
     ],
     "make": "Tesla",
     "model": "Model 3 Long Range",
@@ -1928,7 +1939,8 @@
   {
     "name": "Tesla Model S Plaid",
     "markets": [
-      "EU"
+      "EU",
+      "USA"
     ],
     "make": "Tesla",
     "model": "Model S Plaid",
@@ -2267,7 +2279,8 @@
   {
     "name": "Volvo C40 Recharge",
     "markets": [
-      "USA"
+      "USA",
+      "EU"
     ],
     "make": "Volvo",
     "model": "C40 Recharge",
@@ -2323,7 +2336,8 @@
   {
     "name": "Volvo XC40",
     "markets": [
-      "USA"
+      "USA",
+      "EU"
     ],
     "make": "Volvo",
     "model": "XC40",

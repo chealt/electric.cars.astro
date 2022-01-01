@@ -7,14 +7,12 @@ import HorizontalScrollerItem from '../HorizontalScroller/Item.astro';
 
 const { name, make, model, year, images, ...rest } = Astro.props;
 ---
-<>
-  <HorizontalScroller>
-    {images.map(({ path }) => (
-      <HorizontalScrollerItem>
-        <Image name={name} make={make} model={model} year={year} imagePath={path} />
-      </HorizontalScrollerItem>
-    ))}
-  </HorizontalScroller>
-  <Name name={name} year={year} />
-  <Details {...rest} />
-</>
+<HorizontalScroller>
+  {images.map(({ path }) => (
+    <HorizontalScrollerItem>
+      <Image name={name} make={make} model={model} year={year} imagePath={path} />
+    </HorizontalScrollerItem>
+  ))}
+</HorizontalScroller>
+<Name name={name} year={year} />
+<Details {...rest} />
